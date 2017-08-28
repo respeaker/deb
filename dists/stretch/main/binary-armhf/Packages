@@ -883,6 +883,22 @@ MD5sum: cb02f7e608b7cc08fc394c7732f995ef
 Description: Debug symbols for pulseaudio-utils
 Build-Ids: 0a7ea7a6ba96c4d34c62e000cdf7c08e9bf858b7 5daeb25fce8aaced93da882a3a8265891ceb7fd4 972516133da5eeddf2189c67928dacd0884d0059 b161fa05311860b10db77d372305a7f8554f86b8 d1c3380f212e85b48b2527629c254609b4045faf
 
+Package: respeaker-osconfig
+Version: 2017.08.28~re+20170828+1
+Architecture: armhf
+Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
+Installed-Size: 15
+Depends: gnupg2 | gnupg
+Priority: extra
+Section: misc
+Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2017.08.28~re+20170828+1_armhf.deb
+Size: 1626
+SHA256: f181c7dddf22d570e23b84b04ccf91fcca45240a919a9b3840f55850b1dbc892
+SHA1: 7aa9ca7fc9d0226599d1db65f41633f1fbec379b
+MD5sum: 3de9b4bd0b770e137a5d82c17a4067de
+Description: wifi/bt firmwares
+ The archive project works for respeaker v2 wifi/bt firmwares
+
 Package: rk-firmware
 Version: 2017.08.22~re+20170822+1
 Architecture: armhf
@@ -956,6 +972,22 @@ MD5sum: 8207dab2b7372d576f55e0b985deb6cc
 Description: Debug symbols for tightvncserver
 Build-Ids: 1e1fe252dcde5aa3bf09cd9cff293a96ed139b16 5d8987b73113dc0b3ca4b3f4152ed3589092c2e1 98502be8ddd9009011724c012c787f5867d387f7
 Original-Maintainer: Ola Lundqvist <opal@debian.org>
+
+Package: usbg-manager
+Version: 2017.08.22~re+20170822+1
+Architecture: armhf
+Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
+Installed-Size: 16
+Depends: gnupg2 | gnupg, udev
+Priority: extra
+Section: misc
+Filename: pool/main/u/usbg-manager/usbg-manager_2017.08.22~re+20170822+1_armhf.deb
+Size: 2268
+SHA256: 2216aed00befc520082a1931680cb24aedd06bb7af768174e4dab34dd913e281
+SHA1: bf1deb579fbdbdaf40346e7ef2d32654d4a9f06d
+MD5sum: 8a19863f2651e982ea406b1396e1b5e9
+Description: USB gadget manager for respeaker v2
+ The archive project works for respeaker v2 usb gadget serial network audio
 
 Package: xtightvncviewer
 Source: tightvnc
