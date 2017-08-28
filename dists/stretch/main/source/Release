@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: respeaker.io
+Label: respeaker.io
+Architecture: source
+Description: Apt repository for respeaker.io

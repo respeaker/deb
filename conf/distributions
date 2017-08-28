@@ -1,5 +1,10 @@
+Origin: respeaker.io
+Label: respeaker.io
 Codename: stretch
+Suite: stable
 Components: main
-Architectures: armhf
+UDebComponents: main
+Architectures: armhf source
+Description: Apt repository for respeaker.io
 SignWith: 4A3BF8AC
 
