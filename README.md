@@ -8,7 +8,7 @@ Package Repository for Debian
 
 ### Add repository
 ```
-echo "deb http://respeaker.io/deb/ main" | sudo tee /etc/apt/sources.list.d/respeaker.list
+echo "deb http://respeaker.io/deb/ stretch main" | sudo tee /etc/apt/sources.list.d/respeaker.list
 ```
 
 ### Add public GPG key
