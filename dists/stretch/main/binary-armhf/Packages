@@ -1,3 +1,256 @@
+Package: bluetooth
+Source: bluez
+Version: 5.46-1
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 68
+Depends: bluez
+Suggests: bluez-cups, bluez-obexd
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluetooth_5.46-1_all.deb
+Size: 41658
+SHA256: 193c1e187354702634354546bd85c819e74148e23b64545b59804e83f30c4beb
+SHA1: 1c0d3430057837f7a87d834e7924fd35c099a0b3
+MD5sum: 445d8bbbe2e0a1a9a02aa00920df5d10
+Description: Bluetooth support
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+
+Package: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 2987
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.15), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline7 (>= 6.0), libudev1 (>= 196), init-system-helpers (>= 1.18~), kmod, udev, lsb-base, dbus
+Suggests: pulseaudio-module-bluetooth
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+Replaces: bluez-audio (<= 3.36-3), bluez-input, bluez-network, bluez-serial, bluez-utils (<= 3.36-3), udev (<< 170-1)
+Multi-Arch: foreign
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez_5.46-1_armhf.deb
+Size: 840010
+SHA256: e7349fd38d0f9e3f33b910e4e103be0d9787fb3ba698a27cf8087dbd041cd06d
+SHA1: 39e13fa73157dd41b7067a3f376d546a223edf75
+MD5sum: 459b57e2b8731776aeeb023fe5cb0852
+Description: Bluetooth tools and daemons
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-cups
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 183
+Depends: libc6 (>= 2.15), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.16.0), cups
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-cups_5.46-1_armhf.deb
+Size: 91106
+SHA256: b3597f43ec9652a3dfc418c38136670327f866b2971db4b5d6184ec1bc2ffbaf
+SHA1: ec78aefa527387de3f5e4ae110f95826f2e49f8c
+MD5sum: a817c4155757e423f7fa76251dc287e0
+Description: Bluetooth printer driver for CUPS
+ This package contains a driver to let CUPS print to Bluetooth-connected
+ printers.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-dbg
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 7695
+Depends: bluez (= 5.46-1), libbluetooth3-dbg (= 5.46-1)
+Homepage: http://www.bluez.org
+Priority: extra
+Section: debug
+Filename: pool/main/b/bluez/bluez-dbg_5.46-1_armhf.deb
+Size: 6578220
+SHA256: d00bd24e7cd11f83ab75406a9327260a4430a90d02939c7487b374d39d18dd17
+SHA1: af0fafab3725a4b0cb4e8c44cd82cb88a18954fa
+MD5sum: be611d86578f4f61f69ba70426ee32ac
+Description: Bluetooth tools and daemons (with debugging symbols)
+ This package contains tools and system daemons for using Bluetooth devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+ .
+ This package contains the debugging symbols.
+Build-Ids: 272922e198db7c52aff191fe4450cf2be54f9016 321888b200ee648aaf9ba1414a61a1ce6750ef86
+
+Package: bluez-hcidump
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 367
+Depends: libc6 (>= 2.4)
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-hcidump_5.46-1_armhf.deb
+Size: 166856
+SHA256: 3a0b0016276e7519e3a156fed394c41683f9c82f8cc291cd490040beac65a9b7
+SHA1: 51de6e04236d1af0a8ad75e5bcf0ee308c479c70
+MD5sum: 10bbd1919b6c36fb25627e511f3965de
+Description: Analyses Bluetooth HCI packets
+ The hcidump utility allows the monitoring of Bluetooth activity.
+ It provides a disassembly of the Bluetooth traffic and can display
+ packets from higher level protocols such as RFCOMM, SDP and BNEP.
+ .
+ This was the software that is independent as bluez-hcidump, but this has been
+ integrated into BlueZ from BlueZ 5.0.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-obexd
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 369
+Depends: libc6 (>= 2.15), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.35.9), libical2 (>= 2.0.0), libicu57 (>= 57.1-1~)
+Conflicts: obexd-client, obexd-server
+Replaces: obexd-client, obexd-server
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-obexd_5.46-1_armhf.deb
+Size: 177638
+SHA256: 04b1f9dd575931987ab63e8a967fc35e1781c772ec0d0a52f6325d3ff7de85d6
+SHA1: 41dbbbd6b145bd4286f0f30dc88a13a086aae554
+MD5sum: 1199335742883fc699cfb5abadc71e86
+Description: bluez obex daemon
+ This package contains a OBEX(OBject EXchange) daemon.
+ .
+ OBEX is communication protocol to facilitate the exchange of the binary
+ object between the devices.
+ .
+ This was the software that is independent as obexd, but this has been
+ integrated into BlueZ from BlueZ 5.0.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-test-scripts
+Source: bluez
+Version: 5.46-1
+Architecture: all
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 163
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-test-scripts_5.46-1_all.deb
+Size: 83172
+SHA256: 237a0ccb8ca458fe9182cc19560f6b7df07a4d81846247491a1d18caa285e5de
+SHA1: c69695e4aef9fe6e8c114a998c56800fde15637c
+MD5sum: 1263c715b910211ac644306fc8b50dce
+Description: test scripts of bluez
+ This package contains test scripts for using BlueZ.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-test-tools
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 1190
+Depends: libc6 (>= 2.10), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.28.0), bluez (= 5.46-1)
+Homepage: http://www.bluez.org
+Priority: optional
+Section: admin
+Filename: pool/main/b/bluez/bluez-test-tools_5.46-1_armhf.deb
+Size: 215808
+SHA256: 782dc262c960e72cf410b9bb58ada055c8618843c81e7877de18e98c7ef74204
+SHA1: 5a393fbbfd1360dd688694af0fdcdfe521d08913
+MD5sum: dcfb00f1585e00a62083d5cc281c2661
+Description: test tools of bluez
+ This package contains test tools for using BlueZ.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: libbluetooth-dev
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 517
+Depends: libbluetooth3 (= 5.46-1), libc6-dev | libc-dev
+Suggests: pkg-config
+Conflicts: bluez-pan, libbluetooth-dev, libsdp2-dev (<= 1.5.2)
+Replaces: libsdp2-dev (<= 1.5.2)
+Provides: libbluetooth3-dev
+Homepage: http://www.bluez.org
+Priority: extra
+Section: libdevel
+Filename: pool/main/b/bluez/libbluetooth-dev_5.46-1_armhf.deb
+Size: 193746
+SHA256: 928666cc9ea0db0475dacda8a94efab05cacade85ae2d8d6c73bcf41c5be4592
+SHA1: 4516049e4a547c81ea278abbf8f885629bb53e10
+MD5sum: 860f6026f6eeb82e42cb729c43d7aece
+Description: Development files for using the BlueZ Linux Bluetooth library
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: libbluetooth3
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 200
+Depends: libc6 (>= 2.15), libudev1 (>= 183)
+Conflicts: libsdp2 (<= 1.5-2)
+Replaces: libsdp2 (<= 1.5-2)
+Multi-Arch: same
+Homepage: http://www.bluez.org
+Priority: optional
+Section: libs
+Filename: pool/main/b/bluez/libbluetooth3_5.46-1_armhf.deb
+Size: 92440
+SHA256: 081729dd5d4426a7dcdfc2128c0f31b50554a482a3f35a2484660031f3832aaa
+SHA1: db9f14b18fd2ad447107e4b39b4a01d0c9020ea3
+MD5sum: b01a6023b84d653a4166e55d3acbed39
+Description: Library to use the BlueZ Linux Bluetooth stack
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: libbluetooth3-dbg
+Source: bluez
+Version: 5.46-1
+Architecture: armhf
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Installed-Size: 65
+Depends: libbluetooth3 (= 5.46-1)
+Homepage: http://www.bluez.org
+Priority: extra
+Section: debug
+Filename: pool/main/b/bluez/libbluetooth3-dbg_5.46-1_armhf.deb
+Size: 41578
+SHA256: f52cc6abdf52aca693f8fd7cced406912f0d3d91d4cf35b03965db8168e44e1b
+SHA1: 2ed4e83d7df4a473fe3bf30748d8d49826cd724e
+MD5sum: ad86c6f928ca151393abd2021f4a44cb
+Description: Library to use the BlueZ Linux Bluetooth stack with debugging symbols
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+ .
+ This package contains the debugging symbols.
+
 Package: libpulse-dev
 Source: pulseaudio
 Version: 10.99.1-7-g6921e-0respeaker~re+20170825+1
