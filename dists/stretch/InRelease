@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: stretch
+Date: Mon, 28 Aug 2017 02:51:01 UTC
+Architectures: armhf
+Components: main
+MD5Sum:
+ eaad007a3dcbf2ab87adc4b3bc01218a 5070 main/binary-armhf/Packages
+ 445da131116328c2c2922262461fdad3 1802 main/binary-armhf/Packages.gz
+ 12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
+SHA1:
+ 972f7f6c060eb2b4b369bc31a8e762b90b8fbc36 5070 main/binary-armhf/Packages
+ c92116d59478aa71b03039e964d918a5950c13f4 1802 main/binary-armhf/Packages.gz
+ 4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
+SHA256:
+ 6adf37d525b044271494ae964d4d085c4a15e89236f6ca05c9946ddbc3965fdb 5070 main/binary-armhf/Packages
+ 6f00e9748d90f0ffc968e71ea56a88f78b1fe872425713e80ba8f63b7fec7e2b 1802 main/binary-armhf/Packages.gz
+ adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJZo4UgAAoJENxhIVdKO/isom8QAMTGSryzZzoSifixbo3SKBt2
+6hUJuVLcUecYadqnNji5Wffr1kV/s6JgikQuBB74+DERPQ9PH2gHug+gajPblZjb
+COydlXTX+rvyYbFZviGuuasOp6IUosjR5DMvS7MVs20VF7NbigE1UJ8hf76nqO2B
+KOoMIPwFYS618dEqq7OUVM0+vcslE1aQvTcs2YJy2fQ3GI0jd/I/4tfCePZWwmrI
+FjERE6eeOdcl3grG3zaHaqDe4aBgvllsDf/O0h1OnqhOne/spQK7hPeCI4AeiGsK
+nolkEZpu+YZyvUfII+aLyTj32g8esdR3NfD4ooH+2kNCvh8qyna28ZpgdlCCkBiu
+Q4HmJwXYahFOeli9QbJQhP9d/6xlTOwaUkhk3957TVUYkC1Oy04WkblIzf87OkSA
+5pW39iVFozr3AFsKemWxOModmu4gmEGHKe4JVG1JC7rvStgiw90BamovjxmQqxMH
+ApWT1yE5i8YoBes5pzwJLZozTxq+t+touDtGB/knac8peZuhr+bmlGTtHZWFIotc
+X10gnWvGKGAVmkF622oR0Kgw4x1qZrbeWB8J6/N0iM1bKHC/r4LBjFq6Q3c67yOT
+9G71Ir8nD4nc9P1Y2xA53d2qDaf3D6VIbOzBQDdUmN4QHDlhO0Dd1eLDwiCcoDyu
+eqdeVHZtAgBNYFhGSMZd
+=WX4S
+-----END PGP SIGNATURE-----

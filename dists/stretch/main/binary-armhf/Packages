@@ -1,0 +1,114 @@
+Package: tightvncserver
+Source: tightvnc
+Version: 1.3.10-0ubuntu3
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1138
+Depends: libc6 (>= 2.7), libjpeg62-turbo (>= 1.3.1), libx11-6, libxext6, zlib1g (>= 1:1.1.4), perl:any, x11-common | xserver-common, x11-utils, xauth
+Recommends: xfonts-base, x11-xserver-utils
+Suggests: tightvnc-java
+Provides: vnc-server, xserver
+Homepage: http://www.tightvnc.com
+Priority: optional
+Section: x11
+Filename: pool/main/t/tightvnc/tightvncserver_1.3.10-0ubuntu3_armhf.deb
+Size: 599728
+SHA256: 464074234b07d8a12f3ccd444dec5b8a89b2fec64412d834a145ff2965d15428
+SHA1: 958904b41fb84ba526608168ddd578f189752d7e
+MD5sum: 37da3bb93cd5768a84e35a1d1176e596
+Description: virtual network computing server software
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ This package provides a server to which X clients can connect and the
+ server generates a display that can be viewed with a vncviewer.
+ .
+ The difference between the tightvncserver and the normal vncserver is the
+ data encoding, optimized for low bandwidth connections. If the client do not
+ support jpeg or zlib encoding it can use the default one. Later versions of
+ vncserver (> 3.3.3r2) support a new automatic encoding that should be equally
+ good as the tightvnc encoding.
+ .
+ Note: This server does not support or need a display. You need a vncviewer to
+ see something. However, this viewer may also be on a computer running other
+ operating systems in the local net.
+Original-Maintainer: Ola Lundqvist <opal@debian.org>
+
+Package: tightvncserver-dbgsym
+Source: tightvnc
+Version: 1.3.10-0ubuntu3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 230
+Depends: tightvncserver (= 1.3.10-0ubuntu3)
+Homepage: http://www.tightvnc.com
+Priority: extra
+Section: debug
+Filename: pool/main/t/tightvnc/tightvncserver-dbgsym_1.3.10-0ubuntu3_armhf.deb
+Size: 71150
+SHA256: 411726fc2ead59865e5a7a8e8f2555a464824baec25edbfed882518a2133c8a4
+SHA1: 496ae6b307d0832bfc3d8173d3ae9935bc9772f4
+MD5sum: 388e8a7ebced7a10cb542545fa6081fa
+Description: Debug symbols for tightvncserver
+Build-Ids: 1b9c7935cd94444e478e4b976078b7c1d2398a5b 433f08609ded0730043ffc4255f77cc88aa91a9a 6ab7d6f70ceb8f6390f645785b85a8fc7a9a59e9
+Original-Maintainer: Ola Lundqvist <opal@debian.org>
+
+Package: xtightvncviewer
+Source: tightvnc
+Version: 1.3.10-0ubuntu3
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 148
+Depends: libc6 (>= 2.7), libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), libsm6, libx11-6, libxaw7, libxext6, libxmu6, libxpm4, libxt6, zlib1g (>= 1:1.1.4)
+Recommends: xfonts-base
+Suggests: tightvncserver, ssh
+Provides: vnc-viewer, vncviewer
+Homepage: http://www.tightvnc.com
+Priority: optional
+Section: x11
+Filename: pool/main/t/tightvnc/xtightvncviewer_1.3.10-0ubuntu3_armhf.deb
+Size: 86516
+SHA256: 004a87490ea15f056c25fea37e5e010c4a11e983f4d9a4072baaee2619240c85
+SHA1: 74b0263de8da4a540db15023252b67b6fcf7abd5
+MD5sum: 32c86eef884eec0604362b1e7f92059c
+Description: virtual network computing client software for X
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ It is implemented in a client/server model. This package provides a client
+ for X, with this you can connect to a vncserver somewhere in the network
+ and display its content in a window. There are vncserver available for other
+ operating systems.
+ .
+ The difference between the xtightvncviewer and the normal vncviewer is the
+ data encoding, optimized for low bandwidth connections. If the client do not
+ support jpeg or zlib encoding it can use the default one. Later versions of
+ xvncviewer (> 3.3.3r2) support a new automatic encoding that should be equally
+ good as the tightvnc encoding.
+Original-Maintainer: Ola Lundqvist <opal@debian.org>
+
+Package: xtightvncviewer-dbgsym
+Source: tightvnc
+Version: 1.3.10-0ubuntu3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 185
+Depends: xtightvncviewer (= 1.3.10-0ubuntu3)
+Homepage: http://www.tightvnc.com
+Priority: extra
+Section: debug
+Filename: pool/main/t/tightvnc/xtightvncviewer-dbgsym_1.3.10-0ubuntu3_armhf.deb
+Size: 152374
+SHA256: 474bb7578bb067fe7353f94574c46a28ba209d5c41fab3477d9ecc6a9d1ab065
+SHA1: 86062028fbc8409978111d08d44ae7e4eaa4977d
+MD5sum: 51da083944f2408f866311d678a75d26
+Description: Debug symbols for xtightvncviewer
+Build-Ids: e61617902b8355519fffa12f142909e03c2a67a1
+Original-Maintainer: Ola Lundqvist <opal@debian.org>
+
