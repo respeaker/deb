@@ -2,34 +2,34 @@ Origin: respeaker.io
 Label: respeaker.io
 Suite: stable
 Codename: stretch
-Date: Tue, 29 Aug 2017 01:19:43 UTC
+Date: Tue, 29 Aug 2017 03:03:39 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for respeaker.io
 MD5Sum:
- 67fe5b27d93a637365f34716b28fbdc0 53221 main/binary-armhf/Packages
- c2a3616be027a71f65761d6c1be8fc30 14073 main/binary-armhf/Packages.gz
+ 7b6f46c365a234c3323a0c010213796a 53221 main/binary-armhf/Packages
+ 73af1d36c708f93cc9b9404993041361 14080 main/binary-armhf/Packages.gz
  12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
- 07e27b9119230871f4d5a206b44cf8bc 10038 main/source/Sources
- 85c28e3521b3bf5c993c3745740feb2b 3262 main/source/Sources.gz
+ d808fc3540e4f9879c9e10e02fa1b3c3 10038 main/source/Sources
+ 5df411fe4a35ae029f6cba3e033772f0 3266 main/source/Sources.gz
  50358237bf4ba57a9d73e8f635123fb8 139 main/source/Release
 SHA1:
- cc6bdef38602581ad425c7414aaf9319117147a7 53221 main/binary-armhf/Packages
- 7e8492b237bb6426bfca6fff3077ad9cf9b306c7 14073 main/binary-armhf/Packages.gz
+ bd87d11448fd10a2505b7316088c8f3118d3a340 53221 main/binary-armhf/Packages
+ 0afbd2ea2cd2a860a9bb7dee2765462c6e868243 14080 main/binary-armhf/Packages.gz
  4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
- 0ddb1889cbab318f2775d53de838e49b930e826f 10038 main/source/Sources
- f2ba36304459a4f883376772d259eae7316382ed 3262 main/source/Sources.gz
+ 6e31030a05baa2836c60c7a9fdc4211d87d66cfc 10038 main/source/Sources
+ c7770e3778842f7b26ad8e7238f5e0cc5e2f123a 3266 main/source/Sources.gz
  62f46b42e36fc13c8a7de13476f6ecfe0b1fe1ae 139 main/source/Release
 SHA256:
- 534671beeed6a8f0b1bbacec032017f267c4a288c06d5dce1662b7c0f15e8c60 53221 main/binary-armhf/Packages
- c56f81923c9a52db22d59d26dc55ab87336f2cabe8570b4b391e129711f6d8ff 14073 main/binary-armhf/Packages.gz
+ 97d6410a16652c7f9934f88be080d31d7616c139fe4d8432ead7feaa2c3734d4 53221 main/binary-armhf/Packages
+ ecebf02fab716c9148e1b3dbf9085a1b4616bd8324d6dff9134e6dd7d044c763 14080 main/binary-armhf/Packages.gz
  adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
- 0f6a068012db116cf751141b62bd152689fb48ef589648736e1b2d252aed8b7a 10038 main/source/Sources
- 2a2fac686b4806d226b4a00af52cde25e32ec15ca6ce9db7fc6f28668f6a2655 3262 main/source/Sources.gz
+ 02dff6404381345ab874b5b14ab9f600c447b77e0a7002a503ee9b4823fff18f 10038 main/source/Sources
+ c3bb9718194d401eb49cd314d67a370e630a1d37d483d5019dec6078297a6217 3266 main/source/Sources.gz
  908a5b420958dbb3103f2f050c1597855da92997ca5b570ac70e9eb620d2620d 139 main/source/Release

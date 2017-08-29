@@ -1052,18 +1052,18 @@ Build-Ids: 1e1fe252dcde5aa3bf09cd9cff293a96ed139b16 5d8987b73113dc0b3ca4b3f4152e
 Original-Maintainer: Ola Lundqvist <opal@debian.org>
 
 Package: usbg-manager
-Version: 2017.08.22~re+20170822+1
+Version: 2017.08.29~re+20170822+1
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
-Installed-Size: 16
+Installed-Size: 15
 Depends: gnupg2 | gnupg, udev
 Priority: extra
 Section: misc
-Filename: pool/main/u/usbg-manager/usbg-manager_2017.08.22~re+20170822+1_armhf.deb
-Size: 2268
-SHA256: 2216aed00befc520082a1931680cb24aedd06bb7af768174e4dab34dd913e281
-SHA1: bf1deb579fbdbdaf40346e7ef2d32654d4a9f06d
-MD5sum: 8a19863f2651e982ea406b1396e1b5e9
+Filename: pool/main/u/usbg-manager/usbg-manager_2017.08.29~re+20170822+1_armhf.deb
+Size: 2306
+SHA256: f96d008b49005db5b20a2faada046b3cb318b14f926c894b65289ac5f251391d
+SHA1: 01da10842d3581ba970f9038ef11c8c90400bc17
+MD5sum: 97792c655d8d78f1659219f448b7a948
 Description: USB gadget manager for respeaker v2
  The archive project works for respeaker v2 usb gadget serial network audio
 
