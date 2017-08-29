@@ -5,13 +5,13 @@ Origin: respeaker.io
 Label: respeaker.io
 Suite: stable
 Codename: stretch
-Date: Mon, 28 Aug 2017 09:32:22 UTC
+Date: Tue, 29 Aug 2017 01:19:43 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for respeaker.io
 MD5Sum:
- 4809a5ed5f313f073b3ec4ebad7f7eb6 50132 main/binary-armhf/Packages
- 2b66832fbe3c22c33de9ffc230a3c7ab 13221 main/binary-armhf/Packages.gz
+ 67fe5b27d93a637365f34716b28fbdc0 53221 main/binary-armhf/Packages
+ c2a3616be027a71f65761d6c1be8fc30 14073 main/binary-armhf/Packages.gz
  12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
@@ -19,8 +19,8 @@ MD5Sum:
  85c28e3521b3bf5c993c3745740feb2b 3262 main/source/Sources.gz
  50358237bf4ba57a9d73e8f635123fb8 139 main/source/Release
 SHA1:
- 29ec2d64cc30aabb07623e4b5f65d3615b694286 50132 main/binary-armhf/Packages
- 164d2c6a619ff8d93f2d4f9336a4d52e1efab133 13221 main/binary-armhf/Packages.gz
+ cc6bdef38602581ad425c7414aaf9319117147a7 53221 main/binary-armhf/Packages
+ 7e8492b237bb6426bfca6fff3077ad9cf9b306c7 14073 main/binary-armhf/Packages.gz
  4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  f2ba36304459a4f883376772d259eae7316382ed 3262 main/source/Sources.gz
  62f46b42e36fc13c8a7de13476f6ecfe0b1fe1ae 139 main/source/Release
 SHA256:
- 21b4147edd85a6987908eba1b29509bdca10ca9a736a9972f2a4bed7ef31d5af 50132 main/binary-armhf/Packages
- e148aa2450d5b07e414e71d75d96e5bf408ee071825db0aaf8cc38e1afb14f9f 13221 main/binary-armhf/Packages.gz
+ 534671beeed6a8f0b1bbacec032017f267c4a288c06d5dce1662b7c0f15e8c60 53221 main/binary-armhf/Packages
+ c56f81923c9a52db22d59d26dc55ab87336f2cabe8570b4b391e129711f6d8ff 14073 main/binary-armhf/Packages.gz
  adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
@@ -39,17 +39,17 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJZo+MnAAoJENxhIVdKO/isYhUP/2mVF5UCmN8wJXI7HG0hjKoq
-RmBm5V/3RwL9dPGGa66nSToZeU/IQ7SkbqEPKj/gWIU1yBu85G/4nHtdFIUj/Gth
-PT+ro6ekZAcRwxLlzkallmSiNERSVi6bbsQJ8D+elGpLnE1nybsICh4UMxaq9b4e
-nUtfvejBmmbzqlAF+Rkxef1eVS6O+0Vc3D6jlx2mynkPLq+nnuzmf6QVVsXXkPOS
-Oi8/1icVXvCCZVovcA6/BaofBdNUt1Ed+dDf7/LKhmIWfPi+1JW/HMoBff2SZjJ+
-bEhqG+dAvSvF2riZEQ6dBu5FU4CYzFz/dZfPeHWzjIqfqEdJZiD9Xj0px8Vpu2jx
-CEbUP1sCvJz0PHh/xUZ6vwEIHEEARVdkazIy9BUUfa3CZBJCcq2LqpVAqrh1ToBU
-4jfUJEHEQsRU2ctbFVgkARhvhmMIr37mFiAbRBB8CE6rKP/E3e38fJ1WjHKeTpci
-yZIcs+NiH8QB/JZrTK6R6hSzntaal9PqkdrVdgU68V4/ZSkrFpqRbuMPCcQW30p6
-JTYDmdj3f+KPlF9BbZWSG5ZrQgr90d4PJFLK8Idy1nY0YOLagzSfmiyeMuSkNOwy
-V8JueU24zxl1MrvYCRRdsCQ4mIg+1h/XXGaFtr8Mn6L1z6cn+ThJ+epIJHOh0tBL
-wUNuPYorsaED59/e8GuT
-=9/no
+iQIcBAEBCAAGBQJZpME5AAoJENxhIVdKO/iskgAQAJ/ul7ocuWqdTaRJpgICTxsc
+wV9zZVk5wyn04vl47jCx3iLqsJB/SXpBoWTUEipD51RrooYxa05t5mA8a1Bh7o3g
+J6L6xxKGGFLk0bIB4xTlKH24FHtzowb6XJJt/T+dQ5rWaRN4khSk3f5VP6Ka1R0k
+ujW3ABRjne6AnhmDKWhSSyv8YPZhoRTz8F++5bwZxqWQqwRah1lYd8kCb6hGXPF6
+WXhyqtGEw6Y/Uf/gDLK5GkidIPGcCCrxfDfpQC6Gll2fVDXDisRf6V6HFkhy+xJa
+TF/bWibyL1wl3qBlynhfVsrP6oTMAfS2GyiQx0JlT2su8L9Zq5C4AWq7mrS4yypn
+lVHA4eRus7aIu+ma8guAP8rB3Xbbwjr2P9kAghMsIf1iow1zuylyRFE5yskuZIhY
+1GUcozNSPLRK6t3PXAni45Gl10H2vjupbMI85yMLHouojkyhctyMvO1HtrakaUpD
+mTmkVoEroCv+GBDZjaPT8+BRlBWZ9ViNlb54mnMJLATPVkAgjtA33QjHNxKXGEjc
+BGf2EbrhYGHBob7/dIBXaCFX8LYWkSfme3+qHsb0U4KlR4p3EVoVrfAXywBk0qcY
+7vc1+wqYOM2FfXcrpxd35rlA07NO0TpQ7bf7kmk3uh8gClOUdhATrVot8X3bHDpf
+9C7WOk+opJ7ib+fQLB0k
+=KfLL
 -----END PGP SIGNATURE-----
