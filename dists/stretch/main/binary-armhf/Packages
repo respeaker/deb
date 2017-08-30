@@ -962,20 +962,20 @@ Description: Debug symbols for pulseaudio-utils
 Build-Ids: 0a7ea7a6ba96c4d34c62e000cdf7c08e9bf858b7 5daeb25fce8aaced93da882a3a8265891ceb7fd4 972516133da5eeddf2189c67928dacd0884d0059 b161fa05311860b10db77d372305a7f8554f86b8 d1c3380f212e85b48b2527629c254609b4045faf
 
 Package: respeaker-osconfig
-Version: 2017.08.28~re+20170828+1
+Version: 2017.08.29~re+20170829+1
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
-Installed-Size: 15
+Installed-Size: 17
 Depends: gnupg2 | gnupg
 Priority: extra
 Section: misc
-Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2017.08.28~re+20170828+1_armhf.deb
-Size: 1626
-SHA256: f181c7dddf22d570e23b84b04ccf91fcca45240a919a9b3840f55850b1dbc892
-SHA1: 7aa9ca7fc9d0226599d1db65f41633f1fbec379b
-MD5sum: 3de9b4bd0b770e137a5d82c17a4067de
-Description: wifi/bt firmwares
- The archive project works for respeaker v2 wifi/bt firmwares
+Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2017.08.29~re+20170829+1_armhf.deb
+Size: 1696
+SHA256: b1e523b066c345c9aa6845f01f1eb896bee410caf79b66da8b4a042c9578f5f4
+SHA1: 33e4959706d2eba2a049ed6ae9f8408714805e62
+MD5sum: 8bd7d7d6c0ace7b435474d99f340fc1d
+Description: respeaker debian os config files
+ some os config files
 
 Package: rk-firmware
 Version: 2017.08.22~re+20170822+1
