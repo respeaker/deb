@@ -2,11 +2,11 @@ Format: 3.0 (quilt)
 Source: pulseaudio
 Binary: pulseaudio, pulseaudio-utils, pulseaudio-esound-compat, pulseaudio-module-zeroconf, pulseaudio-module-jack, pulseaudio-module-lirc, pulseaudio-module-gconf, pulseaudio-module-raop, pulseaudio-module-bluetooth, pulseaudio-equalizer, libpulse0, libpulse-mainloop-glib0, libpulse-dev, libpulsedsp
 Architecture: any
-Version: 10.99.1-7-g6921e-0respeaker~re+20170825+1
+Version: 11.0.1-0respeaker~re+20170912+1
 Maintainer: Pulseaudio maintenance team <pkg-pulseaudio-devel@lists.alioth.debian.org>
 Uploaders: Sjoerd Simons <sjoerd@debian.org>, Felipe Sateler <fsateler@debian.org>
 Homepage: http://www.pulseaudio.org
-Standards-Version: 4.0.0
+Standards-Version: 4.1.0
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-pulseaudio/pulseaudio.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-pulseaudio/pulseaudio.git
 Testsuite: autopkgtest
@@ -28,11 +28,11 @@ Package-List:
  pulseaudio-module-zeroconf deb sound optional arch=any
  pulseaudio-utils deb sound optional arch=any
 Checksums-Sha1:
- 688bbf7c505a57f2acfd1204d0c3e98ace971a18 1427048 pulseaudio_10.99.1-7-g6921e.orig.tar.xz
- 0837eee9610a92db223570f53ab66b7ac2504e3b 41564 pulseaudio_10.99.1-7-g6921e-0respeaker~re+20170825+1.debian.tar.xz
+ cf0d4cb05c41d4d0601d024c51cd50b0d7a8d201 1430480 pulseaudio_11.0.1.orig.tar.xz
+ 2818007d8a3ba7ee63178ecb2012969e0ef00294 41572 pulseaudio_11.0.1-0respeaker~re+20170912+1.debian.tar.xz
 Checksums-Sha256:
- 3e6bb55919c80165e94c1529e768f90a48fbc4488677d4e907bced8149963f4b 1427048 pulseaudio_10.99.1-7-g6921e.orig.tar.xz
- 558026e542c044e234494e467f42bdf255f9c179cfbce712a3d717260dcbb207 41564 pulseaudio_10.99.1-7-g6921e-0respeaker~re+20170825+1.debian.tar.xz
+ 8b862379e9e988f5c54759b8f907f8bd6848d7d0248e1e4dde12adf1a7344c32 1430480 pulseaudio_11.0.1.orig.tar.xz
+ 5cdf9a5551e69f76d8f6f57ad4f1f189ee7eefc6824cbe30da2c300da8bc0329 41572 pulseaudio_11.0.1-0respeaker~re+20170912+1.debian.tar.xz
 Files:
- 57a8e17f2511509ade0922bbbae99024 1427048 pulseaudio_10.99.1-7-g6921e.orig.tar.xz
- be309253939e2378bb41aa7c4f3585a5 41564 pulseaudio_10.99.1-7-g6921e-0respeaker~re+20170825+1.debian.tar.xz
+ 3132bd38a3f1c70b7e8cb01ee35d6d42 1430480 pulseaudio_11.0.1.orig.tar.xz
+ 543520cfe0fa77f56292dadc0b9393c6 41572 pulseaudio_11.0.1-0respeaker~re+20170912+1.debian.tar.xz
