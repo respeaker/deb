@@ -522,8 +522,8 @@ MD5sum: b166c32fe31d47d6c1fd133fd0dce7a7
 Description: Debug symbols for libpulsedsp
 Build-Ids: e619f7116b51509d2fa57b82c4271f8823095428
 
-Package: linux-headers-4.4.70-respeaker-r4
-Source: linux-4.4.70-respeaker-r4
+Package: linux-headers-4.4.70-respeaker-r5
+Source: linux-4.4.70-respeaker-r5
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
@@ -532,57 +532,57 @@ Provides: linux-headers, linux-headers-2.6
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4.70-respeaker-r4/linux-headers-4.4.70-respeaker-r4_1stable_armhf.deb
-Size: 7558442
-SHA256: 02ce98f052647e4054d42eab5abf070d882a66442e7b2b2817cb51e0d240c6b9
-SHA1: 406b97a5128e62313afbea14facc4a0dd6e8a8fb
-MD5sum: 90fefe0ff6cd06b61cea32a1532bf293
-Description: Linux kernel headers for 4.4.70-respeaker-r4 on armhf
- This package provides kernel header files for 4.4.70-respeaker-r4 on armhf
+Filename: pool/main/l/linux-4.4.70-respeaker-r5/linux-headers-4.4.70-respeaker-r5_1stable_armhf.deb
+Size: 7558784
+SHA256: ad37dff9092231f1f636cf22f15316ffda0d62a43b2a67cfd535c2e1d80d9360
+SHA1: 8ecd78ab3f2eee3b94ef266c798bd681b5e84029
+MD5sum: 123234a1767e0826219a8eb8f291c493
+Description: Linux kernel headers for 4.4.70-respeaker-r5 on armhf
+ This package provides kernel header files for 4.4.70-respeaker-r5 on armhf
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-4.4.70-respeaker-r4
-Source: linux-4.4.70-respeaker-r4
+Package: linux-image-4.4.70-respeaker-r5
+Source: linux-4.4.70-respeaker-r5
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
-Installed-Size: 12276
-Suggests: linux-firmware-image-4.4.70-respeaker-r4
-Provides: linux-image, linux-image-2.6, linux-modules-4.4.70-respeaker-r4
+Installed-Size: 12278
+Suggests: linux-firmware-image-4.4.70-respeaker-r5
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.70-respeaker-r5
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4.70-respeaker-r4/linux-image-4.4.70-respeaker-r4_1stable_armhf.deb
-Size: 8478492
-SHA256: dc13efd75541f669bf571d3f8c89fdce4c4b8cc6a158e349a1b10373543b71c3
-SHA1: 6a8c1f1239b4879facfa035cdba424d3e2e84d66
-MD5sum: a2f8abf85236545244c50b3256f59e43
-Description: Linux kernel, version 4.4.70-respeaker-r4
+Filename: pool/main/l/linux-4.4.70-respeaker-r5/linux-image-4.4.70-respeaker-r5_1stable_armhf.deb
+Size: 8479558
+SHA256: 6dfd78cdf4cbd19fb1d00a51d4e6bb76fed1410a330c3c945e44ded25b32d356
+SHA1: 8111ca449e613d8cb20bd752a430e277ebb0ba1e
+MD5sum: 5eeab1b5c7f5f7c9adcae76782b0d807
+Description: Linux kernel, version 4.4.70-respeaker-r5
  This package contains the Linux kernel, modules and corresponding other
- files, version: 4.4.70-respeaker-r4.
+ files, version: 4.4.70-respeaker-r5.
 
-Package: linux-image-4.4.70-respeaker-r4-dbg
-Source: linux-4.4.70-respeaker-r4
+Package: linux-image-4.4.70-respeaker-r5-dbg
+Source: linux-4.4.70-respeaker-r5
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
-Installed-Size: 205385
-Provides: linux-debug, linux-debug-4.4.70-respeaker-r4
+Installed-Size: 205386
+Provides: linux-debug, linux-debug-4.4.70-respeaker-r5
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-4.4.70-respeaker-r4/linux-image-4.4.70-respeaker-r4-dbg_1stable_armhf.deb
-Size: 49490620
-SHA256: 9a016b7fbf5e0fd8121ed72fda3dee1f40d781629f60caf90e84bd28cff4dacd
-SHA1: eed3bad692dcd5c5d2db0f1c9b96e9cf0366827a
-MD5sum: 6c6444d31e517fcab5e2f7b64320da25
-Description: Linux kernel debugging symbols for 4.4.70-respeaker-r4
+Filename: pool/main/l/linux-4.4.70-respeaker-r5/linux-image-4.4.70-respeaker-r5-dbg_1stable_armhf.deb
+Size: 49498684
+SHA256: 632f216f71b605fae74b41d212f7a7324e94d2ccc4d7fe4a2e66e9a7561268d4
+SHA1: a057dae9786ad85c9d30a1a917c9acc63e57aa31
+MD5sum: ff8cc0fe0a76e005d6d10e595b3f4836
+Description: Linux kernel debugging symbols for 4.4.70-respeaker-r5
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
 Package: linux-libc-dev
-Source: linux-4.4.70-respeaker-r4
+Source: linux-4.4.70-respeaker-r5
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
@@ -591,11 +591,11 @@ Provides: linux-kernel-headers
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-4.4.70-respeaker-r4/linux-libc-dev_1stable_armhf.deb
-Size: 800450
-SHA256: 3ddfc18f61c72aba18919307c9801de0f2a6e74f3c983188b4ce56dad89de11d
-SHA1: 4d48aace7c78036b698a22659c825869b496069f
-MD5sum: 795b76663212c8f50088f6279a001eb6
+Filename: pool/main/l/linux-4.4.70-respeaker-r5/linux-libc-dev_1stable_armhf.deb
+Size: 800438
+SHA256: 6fa4313ec842409afa590cfc2d2164bcdafff6a2be4703c224696ef402c98ec4
+SHA1: 40eb0c69567de5464a80d872338ac2d0b689b677
+MD5sum: a667bbd9b738579835327e83b7f7d033
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
