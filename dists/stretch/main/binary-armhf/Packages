@@ -251,6 +251,73 @@ Description: Library to use the BlueZ Linux Bluetooth stack with debugging symbo
  .
  This package contains the debugging symbols.
 
+Package: liblittleb-dev
+Source: littleb
+Version: 0.1.2-git20171012-0re2~re2+20171012+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 25
+Depends: liblittleb0 (= 0.1.2-git20171012-0re2~re2+20171012+1)
+Homepage: https://github.com/intel-iot-devkit/littleb
+Priority: optional
+Section: libdevel
+Filename: pool/main/l/littleb/liblittleb-dev_0.1.2-git20171012-0re2~re2+20171012+1_armhf.deb
+Size: 4272
+SHA256: d59f9acfcbe140b74b017a9adfca1358d52613dbbf042d363a5f212f858587ef
+SHA1: cb1446a22e6cbd3ef71b1a9e34b37ffa90993a5e
+MD5sum: 41920b6a1fc92a950bf9ad1699a6c8ab
+Description: Interface to BLE API over SD-Bus (development)
+ This project aims to create a clean, modern and easy to use Bluetooth
+ Low Energy API. LittleB exposes the BLE GATT API for Pure C using
+ BlueZ over SD-Bus.
+ .
+ This package contains the littleb library development files.
+
+Package: liblittleb0
+Source: littleb
+Version: 0.1.2-git20171012-0re2~re2+20171012+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 43
+Depends: libc6 (>= 2.4), libsystemd0 (>= 221)
+Homepage: https://github.com/intel-iot-devkit/littleb
+Priority: optional
+Section: libs
+Filename: pool/main/l/littleb/liblittleb0_0.1.2-git20171012-0re2~re2+20171012+1_armhf.deb
+Size: 11888
+SHA256: a52eaa1f12bda76df53ac19ee51e56c00a9337baecb28a43c549b5415dedc797
+SHA1: 8d13ea5961ca5f9fbf38f41f56b18091108cd31c
+MD5sum: 344e70362f52930bbb9cd5874ced9bd9
+Description: Interface to BLE API over SD-Bus (runtime)
+ This project aims to create a clean, modern and easy to use Bluetooth
+ Low Energy API. LittleB exposes the BLE GATT API for Pure C using
+ BlueZ over SD-Bus.
+ .
+ This package contains the littleb library used at runtime.
+
+Package: liblittleb0-dbg
+Source: littleb
+Version: 0.1.2-git20171012-0re2~re2+20171012+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 43
+Depends: liblittleb0 (= 0.1.2-git20171012-0re2~re2+20171012+1)
+Homepage: https://github.com/intel-iot-devkit/littleb
+Priority: extra
+Section: debug
+Filename: pool/main/l/littleb/liblittleb0-dbg_0.1.2-git20171012-0re2~re2+20171012+1_armhf.deb
+Size: 25006
+SHA256: 7d019f7a7f7d69443f97322ac21f96435a880ac6a48f793cc37a08c3c812017b
+SHA1: af7233da91fdb6a380fa717fec2377b7a12a4a67
+MD5sum: 748de9689633c1b56552d31f4de6593b
+Description: debugging symbols for littleb
+ This project aims to create a clean, modern and easy to use Bluetooth
+ Low Energy API. LittleB exposes the BLE GATT API for Pure C using
+ BlueZ over SD-Bus.
+ .
+ This package contains littleb debugging symbols.
+Build-Ids: 1162d2cb78ab36d0d3d74bb171b033bc485fb213
+
 Package: libmraa-dev
 Source: mraa
 Version: 1.8.0-git20171012-0re2~re2+20171012+1
