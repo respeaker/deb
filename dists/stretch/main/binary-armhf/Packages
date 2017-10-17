@@ -721,6 +721,26 @@ Description: Linux kernel headers for 4.4.70-respeaker-r5 on armhf
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.4.83-respeaker-r1
+Source: linux-4.4.83-respeaker-r1
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@server>
+Installed-Size: 49269
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.83-respeaker-r1/linux-headers-4.4.83-respeaker-r1_1stable_armhf.deb
+Size: 7654096
+SHA256: 0ae325ff4d08ba0ca7d141af9e762f48747ff15e09cdd5cebbdb97d90feeea38
+SHA1: 5ad4300ddf820ecf10b9fc55731ca342cf5b508b
+MD5sum: 0dc4006c88aaad8583fab5095b19e48d
+Description: Linux kernel headers for 4.4.83-respeaker-r1 on armhf
+ This package provides kernel header files for 4.4.83-respeaker-r1 on armhf
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.4.70-respeaker-r5
 Source: linux-4.4.70-respeaker-r5
 Version: 1stable
@@ -757,6 +777,45 @@ SHA256: 632f216f71b605fae74b41d212f7a7324e94d2ccc4d7fe4a2e66e9a7561268d4
 SHA1: a057dae9786ad85c9d30a1a917c9acc63e57aa31
 MD5sum: ff8cc0fe0a76e005d6d10e595b3f4836
 Description: Linux kernel debugging symbols for 4.4.70-respeaker-r5
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-4.4.83-respeaker-r1
+Source: linux-4.4.83-respeaker-r1
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@server>
+Installed-Size: 13138
+Suggests: linux-firmware-image-4.4.83-respeaker-r1
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.83-respeaker-r1
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.83-respeaker-r1/linux-image-4.4.83-respeaker-r1_1stable_armhf.deb
+Size: 8637138
+SHA256: e03cb0a41a258389e9c67faa7997fb50878b7511c4c7abe75b4cab34030f6772
+SHA1: 94f2044d2704374dddad662ccd8114b8e5de26f7
+MD5sum: 96b024cb4a622e7666c718b736fe57f6
+Description: Linux kernel, version 4.4.83-respeaker-r1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.83-respeaker-r1.
+
+Package: linux-image-4.4.83-respeaker-r1-dbg
+Source: linux-4.4.83-respeaker-r1
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@server>
+Installed-Size: 194378
+Provides: linux-debug, linux-debug-4.4.83-respeaker-r1
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.83-respeaker-r1/linux-image-4.4.83-respeaker-r1-dbg_1stable_armhf.deb
+Size: 46632990
+SHA256: dc50d23ec12fc8c8dcd9b48825d857a06c913bddc661747a102c29cebde3f00f
+SHA1: bdf7cf30f7520c7cbf5e20a8429119b6ee491ce5
+MD5sum: afb6ef7bd13b730916b0c7a350d22076
+Description: Linux kernel debugging symbols for 4.4.83-respeaker-r1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
