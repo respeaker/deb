@@ -320,19 +320,19 @@ Build-Ids: 1162d2cb78ab36d0d3d74bb171b033bc485fb213
 
 Package: libmraa-dev
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 188
-Depends: libmraa1 (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 195
+Depends: libmraa1 (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: libdevel
-Filename: pool/main/m/mraa/libmraa-dev_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 31202
-SHA256: 873db151fc66a13bb22c7d0a540cf81cbb4384a7e4e5a87889fe8df5c6c505e9
-SHA1: be1b13af7492c6aa84b40affb0ef641cc32cab3a
-MD5sum: a29bce529c8845943456a4c39c897d1d
+Filename: pool/main/m/mraa/libmraa-dev_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 31972
+SHA256: 2a0042961c22887563298dda0718cf3c10ff27818e5192f0a04063e231113efb
+SHA1: fb7604283600da72d4d1d690eb64af2eafd07491
+MD5sum: a4d2581d8f38303060a52ae1d62806ae
 Description: userspace I/O library (development)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -342,19 +342,19 @@ Description: userspace I/O library (development)
 
 Package: libmraa-java
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 117
-Depends: libmraa1 (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 122
+Depends: libmraa1 (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: java
-Filename: pool/main/m/mraa/libmraa-java_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 55974
-SHA256: 050dfc6d767b717c3b5e2948789419a2678c14cdb806e741f919e6a94a433f8d
-SHA1: 794c66535249d4ffb0fe33f36f552a79b315dd9b
-MD5sum: 9708a935cd2bb658e8bea60f4d7d8318
+Filename: pool/main/m/mraa/libmraa-java_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 57534
+SHA256: 3f2000bde50c1db74842b9f26617a80d53c989d4d1747a1b1c0595cdb282667f
+SHA1: 2d4fdc900ac316a9ba354a622fb7d383e099a074
+MD5sum: b2c018e6878a0b869d0ce82d86d75a06
 Description: java bindings for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -364,42 +364,42 @@ Description: java bindings for mraa
 
 Package: libmraa-java-dbg
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 180
-Depends: libmraa-java (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 186
+Depends: libmraa-java (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: extra
 Section: debug
-Filename: pool/main/m/mraa/libmraa-java-dbg_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 145306
-SHA256: e61d4bb8d84a86d6aea7dd2311606df5c94af5053f8709be9e7ce30fab4dfa7d
-SHA1: 332ba8a663f5571c3c67f0ab8725c3a085835304
-MD5sum: 8c5ccc2a88017964f58ba04cdc72e985
+Filename: pool/main/m/mraa/libmraa-java-dbg_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 150438
+SHA256: a48020f1b2130d57615aef9a95101fe3ef40b9528a9a6cf3d0acd7adb5eafc55
+SHA1: 3b5b4484ea5e6fcb6737213708ab3f0aa6dfb93a
+MD5sum: 6ff0d6b6d83bcf7e3fed620e15730642
 Description: debugging symbols for mraa java binding
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa java binding.
-Build-Ids: f761febef91a49874c3d46fe8e5a81784473cb2b
+Build-Ids: 3027d1ff8f290c975b097d53ac5db9540f8d4929
 
 Package: libmraa1
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 143
+Installed-Size: 147
 Depends: libc6 (>= 2.15), libjson-c3 (>= 0.10)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mraa/libmraa1_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 63844
-SHA256: 61ef2b905d533e199ebb83f32b24b28fd6972348cd2c37b562fa64cfbd54ea18
-SHA1: d8ea279898b8daeac7e95fde5055d63a59f2cd21
-MD5sum: 9eba3d194af65d0eef35a5631eca4664
+Filename: pool/main/m/mraa/libmraa1_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 65144
+SHA256: 07f51f98027ade2853f181800dd6e6ab0ae6ab0219301c80d73e8e7a8439cfbb
+SHA1: 27b1baf153f9275acdad1c7a22a44740e7cbc7c8
+MD5sum: 55d38a93699b2ce884dc9996e3373aa8
 Description: userspace I/O library (runtime)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -409,26 +409,26 @@ Description: userspace I/O library (runtime)
 
 Package: libmraa1-dbg
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 267
-Depends: libmraa1 (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 277
+Depends: libmraa1 (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: extra
 Section: debug
-Filename: pool/main/m/mraa/libmraa1-dbg_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 228990
-SHA256: b0dac4a3e7a4eb44a1fa52a92e1576ed75788f24257fca1015c6a23e21e11abc
-SHA1: a826d55b2cfe67ee5f06515028eaa7b2d25fa360
-MD5sum: 4b5852c3a1dfb0be1ce7f8941e4efd2f
+Filename: pool/main/m/mraa/libmraa1-dbg_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 237794
+SHA256: cc55284eaa3e5c835fa481d12f63def04266ffa6756d260a4b7067f800ad31e1
+SHA1: cb8bcd7f02a42e7abd32d76c723dc788d5a65aaa
+MD5sum: d6ae6273f3cd162c923f724b5388e839
 Description: debugging symbols for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains mraa debugging symbols.
-Build-Ids: 3494c2c6fc0b83443c8a79e4877a00771019f2ed
+Build-Ids: 9b4f4ccc86b88b488e9d3f13c4bd46177bcb8136
 
 Package: libpulse-dev
 Source: pulseaudio
@@ -781,19 +781,19 @@ Description: Linux support headers for userspace development
 
 Package: mraa-doc
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: all
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 3999
+Installed-Size: 4174
 Depends: libjs-jquery, libjs-underscore
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: doc
-Filename: pool/main/m/mraa/mraa-doc_1.8.0-git20171012-0re2~re2+20171012+1_all.deb
-Size: 1057862
-SHA256: 0a5a299109dc16568c7347bfcca8c7d7ec3060b8ea7e4c9d8bcdcc441ba0fc33
-SHA1: 416a4980586b4457438bd36caa1239e92fe67750
-MD5sum: 9a061ef99e49537a81c979e58edfeac0
+Filename: pool/main/m/mraa/mraa-doc_1.8.0-git20171030-0re2~re2+20171030+1_all.deb
+Size: 1106496
+SHA256: a6deb75cadbdbb8f2d4d6a4cd536d9a141b7cfbd20bd7a5592aa1cc6a9a15a1a
+SHA1: 8ffc12a4699261c55df323c8e38b9abeb3774ac4
+MD5sum: 7bf118af493f812d6e7cb6289db30ee3
 Description: documentation for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -803,18 +803,18 @@ Description: documentation for mraa
 
 Package: mraa-examples
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: all
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Installed-Size: 246
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: doc
-Filename: pool/main/m/mraa/mraa-examples_1.8.0-git20171012-0re2~re2+20171012+1_all.deb
-Size: 32998
-SHA256: c36407acb09fdf015863d717bbe6d8949d6af3f7cf86b111218effdfac9bafca
-SHA1: ffb410bf700be94c9db4286dd1b616cf34e9fb08
-MD5sum: 779253f2db4605134cad5585f7306031
+Filename: pool/main/m/mraa/mraa-examples_1.8.0-git20171030-0re2~re2+20171030+1_all.deb
+Size: 32958
+SHA256: 00aca0fc36149418032b7b2374e586a0845e4a9b4c73b77d1179819b7532d729
+SHA1: 2b3f2d8db327a1c8fd47ea9cb202b328c75b3844
+MD5sum: b8f25e4443733305f0b702f71fdce50a
 Description: examples for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -844,7 +844,7 @@ Description: binary firmware for mraa firmata platforms.
 
 Package: mraa-imraa
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Installed-Size: 122
@@ -852,11 +852,11 @@ Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.4), libjson-c3 (>= 0.10), l
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: utils
-Filename: pool/main/m/mraa/mraa-imraa_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 38146
-SHA256: d2ecef265a7b1d2a50177ad3e689149aa65c4cd955d696d6f63d8f6ee9b730ac
-SHA1: 8a2defb778ad6d3d701e3dc59ff34e429f3aa319
-MD5sum: 8b3817271aa741855be310ecc05fcf49
+Filename: pool/main/m/mraa/mraa-imraa_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 38090
+SHA256: 8cd0343f7b93d884b6a0a56f4e26d09de61a8b4fa54a782661d40f4b4d65556e
+SHA1: d1444d73b0a041bb8d14bf4879234b7244b111f0
+MD5sum: 403839a12f7ad4e0a139b00899e09946
 Description: mraa imraa tool (firmata)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -866,19 +866,19 @@ Description: mraa imraa tool (firmata)
 
 Package: mraa-imraa-dbg
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Installed-Size: 15
-Depends: mraa-imraa (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Depends: mraa-imraa (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: extra
 Section: debug
-Filename: pool/main/m/mraa/mraa-imraa-dbg_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 7206
-SHA256: 126c0484257d63726852caba9873ff630bf6c1804ef4ad9400f287386687d779
-SHA1: 5ed43de3f79581198805a96294a87764e30df079
-MD5sum: e3c2a3a54040f493d0ab2acb95ee8e35
+Filename: pool/main/m/mraa/mraa-imraa-dbg_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 7188
+SHA256: 93b78fa33a644e26664fba649a51ee7e4e51e884c3eab571e90bb803185a3ab2
+SHA1: e0ef9ef04121f98814434a841f3699fd027c9f49
+MD5sum: abcc6e0e563fa535545c7a23235239e2
 Description: debugging symbols for mraa imraa tool
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -886,7 +886,7 @@ Description: debugging symbols for mraa imraa tool
 
 Package: mraa-tools
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Installed-Size: 36
@@ -894,11 +894,11 @@ Depends: libc6 (>= 2.7), libjson-c3 (>= 0.10), libmraa1
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: utils
-Filename: pool/main/m/mraa/mraa-tools_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 13508
-SHA256: c1151b4a4b749eece1392a6b2c42bc9320ab5c1e04b803b11340e242bd2eb244
-SHA1: 1c5400eda4eba444b6505fe6118239ca5fd27525
-MD5sum: f7d137da1ec27a5ea40990c6a8c0ac49
+Filename: pool/main/m/mraa/mraa-tools_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 13492
+SHA256: b673024ccf2159a58169ad863c189dc7ad5817dea3cb3927709ad0bed0c2fdac
+SHA1: d209a269974f845c0ac062cf232d3bde4d02b9fd
+MD5sum: 1b5ae1e6609bb493febd693e74293f5a
 Description: userspace I/O  tools (GPIO/I2C)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -908,42 +908,42 @@ Description: userspace I/O  tools (GPIO/I2C)
 
 Package: mraa-tools-dbg
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Installed-Size: 53
-Depends: mraa-tools (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Depends: mraa-tools (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: extra
 Section: debug
-Filename: pool/main/m/mraa/mraa-tools-dbg_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 29238
-SHA256: d8da08f62b191a686a1140c099da3860bd868461ff9ea4bc764cc68f6b373b2f
-SHA1: d81d30df74eebb07749f80913a985d0fde68c8c0
-MD5sum: f9dc692fa94c3aee65593e84c4ab538e
+Filename: pool/main/m/mraa/mraa-tools-dbg_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 29244
+SHA256: 06fbaec8dc6d30762efaf54c6d50dda9c8a07cda9a799b6437bb0d4f2e335873
+SHA1: a79b7a3c75a2d9d6ec0620ba9a3ae1f342b99b0c
+MD5sum: 5c1a96a5ff241f63ee827fc2037e6df3
 Description: debugging symbols for mraa GPIO tool
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains mraa GPIO tool debugging symbols.
-Build-Ids: 005875d55872a1324c482f5dcfeb96a8564de309 12aa3bfcb727f8d8fc112b4ea726de2256fcf24e
+Build-Ids: 2909a68d8f1000835f7966d03cc17080983d560a 51b746dee17491a60157d5aed8e5952bb49be879
 
 Package: node-mraa
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 869
-Depends: libmraa1 (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 15
+Depends: libmraa1 (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: libs
-Filename: pool/main/m/mraa/node-mraa_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 238468
-SHA256: 48aef49077c618e52976b98969a75bf9c35f016a875ebaa91ca874d38dc22bce
-SHA1: eeb6b4a9765c9abea35d84bef4e38bfca3b9830a
-MD5sum: 22a91cfa0885951b3ac99a880b7f59f3
+Filename: pool/main/m/mraa/node-mraa_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 7204
+SHA256: 63e198ae8f27d8e0c1663c0b63132a94ad701cb982ed4bd1e7390300bbd0d21f
+SHA1: aca363e1975df1558fbdea888c25eb8e1a4474d4
+MD5sum: 425f413ccca2684dc8d2633d68af71b5
 Description: nodejs bindings for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -1443,19 +1443,19 @@ Build-Ids: 89e91cf270fc0457d75227d4ead39c3447e631c1 8bc02e5608cd5e7331a6b8bfec61
 
 Package: python-mraa
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 199
+Installed-Size: 205
 Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7.5-5~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjson-c3 (>= 0.10), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: python
-Filename: pool/main/m/mraa/python-mraa_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 50306
-SHA256: fde97751b43c7fa8b0768af051684d9392efcad74ef292d096106e775ad012a7
-SHA1: 55a0d0e71899e62fb897fa05e1f755956500f5df
-MD5sum: 5305d4c57a6cf0a0a8d832d91b615b21
+Filename: pool/main/m/mraa/python-mraa_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 51966
+SHA256: 089947c5eb76e23bbe8337432696b88b6fb3594d3821c092f20dd7eab594ddb8
+SHA1: 2f8f2bd66264440b3516e761cc0675f43df71c2f
+MD5sum: 885bb3d0b9ba19bc394053ca951143ed
 Description: Python binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -1465,41 +1465,41 @@ Description: Python binding for mraa
 
 Package: python-mraa-dbg
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 223
-Depends: python-mraa (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 230
+Depends: python-mraa (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: extra
 Section: debug
-Filename: pool/main/m/mraa/python-mraa-dbg_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 192970
-SHA256: 80054b0c80d22bbd85b38f0c764d512ccf7d7c4fd6d3b8426f861808d8fda5fb
-SHA1: 6fad139708ca6f996f0e148d6438630c2982b0e9
-MD5sum: 92a4c2f9d3dc2670e1690577acc3ce8d
+Filename: pool/main/m/mraa/python-mraa-dbg_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 199130
+SHA256: 5bae3f2b1351a356167618cb7fcd07d7b96850fef1bfc92746b44a350581deae
+SHA1: e6d2b96c4768869822a0ddddc7753ebfaa64566c
+MD5sum: f6bd090bf518e13e269bd91c2222b6ca
 Description: debugging symbols for mraa Python 2 binding
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa Python 2 binding.
-Build-Ids: 7c4256419a934781788dd84e11b2d2852c7fbed5
+Build-Ids: 010b2b1a70465fe2dda2be8012e650afef35fd41
 
 Package: python-mraa-doc
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: all
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 445
+Installed-Size: 457
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: doc
-Filename: pool/main/m/mraa/python-mraa-doc_1.8.0-git20171012-0re2~re2+20171012+1_all.deb
-Size: 61546
-SHA256: f5321861d4c76a14435ea2d2085163ff08d49e1127303ad49f041eec6405c6b9
-SHA1: 50a14b2ca0c046855f5bfdf12c637646953d784a
-MD5sum: 77763b1e0471ab96beff3efbcd686981
+Filename: pool/main/m/mraa/python-mraa-doc_1.8.0-git20171030-0re2~re2+20171030+1_all.deb
+Size: 62188
+SHA256: cd9533bfd08e93cdc457d9cf0c9168616ea62202b9c30bbaa012c167e9e29e5b
+SHA1: 43490b7d13135c957210dd3ac20fff971694ce08
+MD5sum: 460afb3fd093f127b5e9b97a6a9b8aef
 Description: Python binding for mraa (documentation)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -1575,19 +1575,19 @@ Description: Python bindings for upm (documentation)
 
 Package: python3-mraa
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 146
+Installed-Size: 155
 Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjson-c3 (>= 0.10), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: python
-Filename: pool/main/m/mraa/python3-mraa_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 43188
-SHA256: 34f33ab1bfe15e25a475945f4fb4e008e03cfcac682aed6d6a052757db7c7b09
-SHA1: db927189aa5c3e37721b266eaf629483d1465c48
-MD5sum: 3b0b48708932523c841279b0c4f2c436
+Filename: pool/main/m/mraa/python3-mraa_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 44536
+SHA256: d4950fb2af35110721c416842824ece0b8e87b5d07969337c9e0e49a32e3cb7a
+SHA1: 86fb5564329793b2aab64cfd952edb7f51d5b553
+MD5sum: 0a2e0c382665b55c2803af850c0c88af
 Description: Python 3 binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -1597,26 +1597,26 @@ Description: Python 3 binding for mraa
 
 Package: python3-mraa-dbg
 Source: mraa
-Version: 1.8.0-git20171012-0re2~re2+20171012+1
+Version: 1.8.0-git20171030-0re2~re2+20171030+1
 Architecture: armhf
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 224
-Depends: python3-mraa (= 1.8.0-git20171012-0re2~re2+20171012+1)
+Installed-Size: 231
+Depends: python3-mraa (= 1.8.0-git20171030-0re2~re2+20171030+1)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: extra
 Section: debug
-Filename: pool/main/m/mraa/python3-mraa-dbg_1.8.0-git20171012-0re2~re2+20171012+1_armhf.deb
-Size: 194668
-SHA256: 93aeef542975130e01fb8fae2aee8649565faa6d22460ef9cd34492d743a7ae8
-SHA1: 416fd757e3742b3770ed855972e11f7ed3f41bda
-MD5sum: 1153fdc27f9d4e440931d145f0b6386d
+Filename: pool/main/m/mraa/python3-mraa-dbg_1.8.0-git20171030-0re2~re2+20171030+1_armhf.deb
+Size: 200488
+SHA256: c985a5326252816ec9bd1f903dc39f7646c6537719a9f71dbf6c0d644f5eddf5
+SHA1: 61c360597f846cd48d36cd053b4f9f39bcf92846
+MD5sum: dabdb6794cf472652e7f524d79c83ad8
 Description: debugging symbols for mraa Python 3 binding
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa Python 3 binding.
-Build-Ids: 19011ce37684fd3e6ff591a2b97457d253499a2d
+Build-Ids: 80d72b652891c30cef181a8d8d1963bf692c4e81
 
 Package: python3-upm
 Source: upm
