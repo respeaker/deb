@@ -722,6 +722,26 @@ Description: Linux kernel headers for 4.4.94-respeaker-r1 on armhf
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.4.95-respeaker-r2
+Source: linux-4.4.95-respeaker-r2
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@server>
+Installed-Size: 49277
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.95-respeaker-r2/linux-headers-4.4.95-respeaker-r2_1stable_armhf.deb
+Size: 7655338
+SHA256: 526787f070a38e53f2fb95ea2a6ac5f89014ec393ba6aea778b5d1b4887dc858
+SHA1: 8e2afad99b50edb74edcce1dbb8ef56b91d3ec4a
+MD5sum: 82470e05484eea1e213b5eafed7e8647
+Description: Linux kernel headers for 4.4.95-respeaker-r2 on armhf
+ This package provides kernel header files for 4.4.95-respeaker-r2 on armhf
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.4.94-respeaker-r1
 Source: linux-4.4.94-respeaker-r1
 Version: 1stable
@@ -758,6 +778,45 @@ SHA256: 69f602606a1e314f3c8aafb0f52a360b644a32820be0cc2361bdf3fad953ce3c
 SHA1: 329ee6c10c565659d1b0422b6906a3ee0e63357e
 MD5sum: 5def83adbb69d299af615fdb16e1249e
 Description: Linux kernel debugging symbols for 4.4.94-respeaker-r1
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+
+Package: linux-image-4.4.95-respeaker-r2
+Source: linux-4.4.95-respeaker-r2
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@server>
+Installed-Size: 13139
+Suggests: linux-firmware-image-4.4.95-respeaker-r2
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.95-respeaker-r2
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.95-respeaker-r2/linux-image-4.4.95-respeaker-r2_1stable_armhf.deb
+Size: 8637884
+SHA256: 9f86909e1a544bb545a394ad9376651ee75e510d9922639ee2354db7683f7632
+SHA1: ab3c1d780c928416c3db1cc0bdb6e00127c7449c
+MD5sum: dc7d25819fd854328b518459c43a926e
+Description: Linux kernel, version 4.4.95-respeaker-r2
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.95-respeaker-r2.
+
+Package: linux-image-4.4.95-respeaker-r2-dbg
+Source: linux-4.4.95-respeaker-r2
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@server>
+Installed-Size: 195581
+Provides: linux-debug, linux-debug-4.4.95-respeaker-r2
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: debug
+Filename: pool/main/l/linux-4.4.95-respeaker-r2/linux-image-4.4.95-respeaker-r2-dbg_1stable_armhf.deb
+Size: 46900504
+SHA256: 23a283b41dc7a34001d5f9af9d3575820881c2bbb2990c447a6ba1d6b45823df
+SHA1: a46500dd92624afd429205922f61102012115d61
+MD5sum: 5496e744cd9e0de992c58d6f3f5409d2
+Description: Linux kernel debugging symbols for 4.4.95-respeaker-r2
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
@@ -973,6 +1032,81 @@ Description: nodejs bindings for upm
  groups of sensors may be.
  .
  This package contains upm nodejs binding.
+
+Package: ofono
+Version: 1.21.1-0respeaker~re+20170912+1
+Architecture: armhf
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 1203
+Depends: libc6 (>= 2.9), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.32), libudev1 (>= 183), init-system-helpers (>= 1.18~), dbus, lsb-base
+Recommends: udev
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono_1.21.1-0respeaker~re+20170912+1_armhf.deb
+Size: 518240
+SHA256: cf20ddeca6cf854028b955f415f138be6b7b220adbaa4057827dbb67e75efbb7
+SHA1: 1575717dd876fa302aba4217edf36bd7224cda1e
+MD5sum: 80cda0e83ef175f11e497be9b2dbe35a
+Description: Mobile telephony stack (daemon)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes the core daemon.
+
+Package: ofono-dbgsym
+Source: ofono
+Version: 1.21.1-0respeaker~re+20170912+1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 2992
+Depends: ofono (= 1.21.1-0respeaker~re+20170912+1)
+Breaks: ofono-dbg (<< 1.18-1~)
+Replaces: ofono-dbg (<< 1.18-1~)
+Homepage: http://www.ofono.org/
+Priority: extra
+Section: debug
+Filename: pool/main/o/ofono/ofono-dbgsym_1.21.1-0respeaker~re+20170912+1_armhf.deb
+Size: 2553086
+SHA256: 80f59f7103fa041b0e76e2b5fab0e9652c1244e8a357240c011b880804f1ef47
+SHA1: f62455a663567861f9496cf55093b8a7d64eb674
+MD5sum: 4fbad0a853b598b7c109861b5fa81a67
+Description: Debug symbols for ofono
+Build-Ids: 0cb5e1b0db15ffc216c3c9b45d4fbbaa2f726b62 66377f6e0d1358cc38acb2d39f705e286a0292b6
+
+Package: ofono-dev
+Source: ofono
+Version: 1.21.1-0respeaker~re+20170912+1
+Architecture: all
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Installed-Size: 181
+Depends: libc6-dev | libc-dev
+Homepage: http://www.ofono.org/
+Priority: optional
+Section: admin
+Filename: pool/main/o/ofono/ofono-dev_1.21.1-0respeaker~re+20170912+1_all.deb
+Size: 38872
+SHA256: 3ec959045df6e2aeba5599a96d67c06106edd99a1b949c706b0bf2853fccbe7c
+SHA1: a8d054706f42e47abf405c077b9fcb2004cef510
+MD5sum: abc03fed050b75dfeedca5f952be78b0
+Description: Mobile telephony stack (development files)
+ oFono is a stack for mobile telephony devices on Linux.  oFono supports
+ speaking to telephony devices through specific drivers, or with generic
+ AT commands.
+ .
+ oFono also includes a low-level plug-in API for integrating with other
+ telephony stacks, cellular modems and storage back-ends. The plug-in API
+ functionality is modeled on public standards, in particular
+ 3GPP TS 27.007 "AT command set for User Equipment (UE)."
+ .
+ This package includes the header files for building oFono plugins.
 
 Package: pulseaudio
 Version: 11.0.1-0respeaker~re+20170912+1
