@@ -1968,15 +1968,15 @@ Version: 0.9.14-2
 Architecture: armhf
 Maintainer: Fathi Boudra <fabo@debian.org>
 Installed-Size: 1595
-Depends: openssl, tk, x11vnc-data (= 0.9.14-2), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libssl1.1 (>= 1.1.0), libvncclient1 (>= 0.9.10), libvncserver1 (>= 0.9.10), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2, libxtst6
+Depends: openssl, tk, x11vnc-data, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libssl1.1 (>= 1.1.0), libvncclient1 (>= 0.9.10), libvncserver1 (>= 0.9.10), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2, libxtst6
 Homepage: http://www.karlrunge.com/x11vnc/
 Priority: optional
 Section: x11
 Filename: pool/main/x/x11vnc/x11vnc_0.9.14-2_armhf.deb
-Size: 674362
-SHA256: c68fbf3331bbb308736f82f896e3aab134fae0d60ffa031e62b071492f2091d1
-SHA1: ce3b12b30870d919235d010425f87a7f05ff289f
-MD5sum: 41d8ab60a4ce34e573037124820532a4
+Size: 674348
+SHA256: f6094c653c30c41ef2f08389ac2118d9a818126b05b80ec552aa256aa153ede6
+SHA1: 70465d2ad0ee4ae2cff073096975812d1f173fd4
+MD5sum: 7a5db1ef318e6a1d7124ad3e03f63090
 Description: VNC server to allow remote access to an existing X session
  x11vnc allows one to view remotely and interact with real X displays (i.e. a
  display corresponding to a physical monitor, keyboard, and mouse) with any
@@ -1990,18 +1990,18 @@ Version: 0.9.14-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Fathi Boudra <fabo@debian.org>
-Installed-Size: 1184
+Installed-Size: 1183
 Depends: x11vnc (= 0.9.14-2)
 Homepage: http://www.karlrunge.com/x11vnc/
 Priority: extra
 Section: debug
 Filename: pool/main/x/x11vnc/x11vnc-dbgsym_0.9.14-2_armhf.deb
-Size: 1086174
-SHA256: f5ad67175f78e8a4648939998832dc80d32a01ccdbfa90895eaa53e2d2bcd0be
-SHA1: 5548060da485fa69ffa4c63b74f57bfd73c71311
-MD5sum: 1703c2a379e36c0c48ed3103a4f13e54
+Size: 1085628
+SHA256: 28e0a49f70c8216575a67877bd8866978ac5d6d530c70023244b6cfcd51bd99b
+SHA1: 170140b36cf23584140b21a21f85ef02283f659f
+MD5sum: 333c4e9b8a326f3c730bc58af7d6b3b9
 Description: Debug symbols for x11vnc
-Build-Ids: 0566d8ef37550b5751ca13c5c5abaede73403176
+Build-Ids: 6806b3d83744c7ca4bc25e71dc74a07be1457e11
 
 Package: xtightvncviewer
 Source: tightvnc
