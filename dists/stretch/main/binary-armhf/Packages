@@ -722,8 +722,8 @@ Description: Linux kernel headers for 4.4.94-respeaker-r1 on armhf
  .
  This is useful for people who need to build external modules
 
-Package: linux-headers-4.4.95-respeaker-r2
-Source: linux-4.4.95-respeaker-r2
+Package: linux-headers-4.4.95-respeaker-r3
+Source: linux-4.4.95-respeaker-r3
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
@@ -732,13 +732,13 @@ Provides: linux-headers, linux-headers-2.6
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4.95-respeaker-r2/linux-headers-4.4.95-respeaker-r2_1stable_armhf.deb
-Size: 7655338
-SHA256: 526787f070a38e53f2fb95ea2a6ac5f89014ec393ba6aea778b5d1b4887dc858
-SHA1: 8e2afad99b50edb74edcce1dbb8ef56b91d3ec4a
-MD5sum: 82470e05484eea1e213b5eafed7e8647
-Description: Linux kernel headers for 4.4.95-respeaker-r2 on armhf
- This package provides kernel header files for 4.4.95-respeaker-r2 on armhf
+Filename: pool/main/l/linux-4.4.95-respeaker-r3/linux-headers-4.4.95-respeaker-r3_1stable_armhf.deb
+Size: 7655010
+SHA256: e9e64953094a29ea4e21648984a9aac976552c7bd8b23b00d5f356f26f67c8ff
+SHA1: cffdc3ca53ede0ee655853d2e04360e26c539cd5
+MD5sum: 236b17651688e6fede98e889fbba94df
+Description: Linux kernel headers for 4.4.95-respeaker-r3 on armhf
+ This package provides kernel header files for 4.4.95-respeaker-r3 on armhf
  .
  This is useful for people who need to build external modules
 
@@ -781,42 +781,42 @@ Description: Linux kernel debugging symbols for 4.4.94-respeaker-r1
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
-Package: linux-image-4.4.95-respeaker-r2
-Source: linux-4.4.95-respeaker-r2
+Package: linux-image-4.4.95-respeaker-r3
+Source: linux-4.4.95-respeaker-r3
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
 Installed-Size: 13139
-Suggests: linux-firmware-image-4.4.95-respeaker-r2
-Provides: linux-image, linux-image-2.6, linux-modules-4.4.95-respeaker-r2
+Suggests: linux-firmware-image-4.4.95-respeaker-r3
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.95-respeaker-r3
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-4.4.95-respeaker-r2/linux-image-4.4.95-respeaker-r2_1stable_armhf.deb
-Size: 8637884
-SHA256: 9f86909e1a544bb545a394ad9376651ee75e510d9922639ee2354db7683f7632
-SHA1: ab3c1d780c928416c3db1cc0bdb6e00127c7449c
-MD5sum: dc7d25819fd854328b518459c43a926e
-Description: Linux kernel, version 4.4.95-respeaker-r2
+Filename: pool/main/l/linux-4.4.95-respeaker-r3/linux-image-4.4.95-respeaker-r3_1stable_armhf.deb
+Size: 8637448
+SHA256: 09b7510bbccc6146800e3748815931f4a6e5410d9cba9683e840f9ec861d65c7
+SHA1: 9a97ed251214e60706ee66e68261d5a66178cf52
+MD5sum: 1ffb352d69583b64587bbc1dd67c044f
+Description: Linux kernel, version 4.4.95-respeaker-r3
  This package contains the Linux kernel, modules and corresponding other
- files, version: 4.4.95-respeaker-r2.
+ files, version: 4.4.95-respeaker-r3.
 
-Package: linux-image-4.4.95-respeaker-r2-dbg
-Source: linux-4.4.95-respeaker-r2
+Package: linux-image-4.4.95-respeaker-r3-dbg
+Source: linux-4.4.95-respeaker-r3
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@server>
 Installed-Size: 195581
-Provides: linux-debug, linux-debug-4.4.95-respeaker-r2
+Provides: linux-debug, linux-debug-4.4.95-respeaker-r3
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: debug
-Filename: pool/main/l/linux-4.4.95-respeaker-r2/linux-image-4.4.95-respeaker-r2-dbg_1stable_armhf.deb
-Size: 46900504
-SHA256: 23a283b41dc7a34001d5f9af9d3575820881c2bbb2990c447a6ba1d6b45823df
-SHA1: a46500dd92624afd429205922f61102012115d61
-MD5sum: 5496e744cd9e0de992c58d6f3f5409d2
-Description: Linux kernel debugging symbols for 4.4.95-respeaker-r2
+Filename: pool/main/l/linux-4.4.95-respeaker-r3/linux-image-4.4.95-respeaker-r3-dbg_1stable_armhf.deb
+Size: 46892546
+SHA256: 28818d7fb7da7c616cd35b56525d6574d844e4ba1af1fd6dd958d0c59b5d64ba
+SHA1: 088c169b2dca3bc78a58cd940a4d92f9c532f240
+MD5sum: 121bc9219e9ca6c0e3250099fd8af559
+Description: Linux kernel debugging symbols for 4.4.95-respeaker-r3
  This package will come in handy if you need to debug the kernel. It provides
  all the necessary debug symbols for the kernel and its modules.
 
