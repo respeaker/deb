@@ -1756,18 +1756,18 @@ Description: respeaker v2 bluetooth preinit script
  The archive project works for respeaker v2 bluetooth
 
 Package: respeaker-osconfig
-Version: 2017.11.29~re+20171129+1
+Version: 2018.1.3~re+20170103+1
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
 Installed-Size: 23
 Depends: gnupg2 | gnupg
 Priority: extra
 Section: misc
-Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2017.11.29~re+20171129+1_armhf.deb
-Size: 2694
-SHA256: b2dde286be920e44e5c2e482b731d24d670f25479318dbc0d572ed1a73e1fa95
-SHA1: dfe16e8b0e056bc93c4aefb12a9e9346a78c5dd0
-MD5sum: ff1e33744ff4dd318e12305412c68a57
+Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2018.1.3~re+20170103+1_armhf.deb
+Size: 2836
+SHA256: 60e71e5e3b14122fbfb4e3fac7093ed109ae60137c8bd21b2d32248160d2bbfa
+SHA1: b948b5c8a7493976b47322192ec5b4b7693d2334
+MD5sum: 7c89e8cb014e011faf913aa2e790e72e
 Description: respeaker debian os config files
  some os config files
 
