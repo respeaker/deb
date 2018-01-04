@@ -1764,10 +1764,10 @@ Depends: gnupg2 | gnupg
 Priority: extra
 Section: misc
 Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2018.1.3~re+20170103+1_armhf.deb
-Size: 2836
-SHA256: 60e71e5e3b14122fbfb4e3fac7093ed109ae60137c8bd21b2d32248160d2bbfa
-SHA1: b948b5c8a7493976b47322192ec5b4b7693d2334
-MD5sum: 7c89e8cb014e011faf913aa2e790e72e
+Size: 2832
+SHA256: 5f772f384f680cf885b1ff0240d089c4d631b8ac9934bd5cc9538251f57bc09b
+SHA1: 049bbb00f67786b76c40a49130e97028e7620e73
+MD5sum: 3cedfe04490204197d23373603f7d218
 Description: respeaker debian os config files
  some os config files
 
