@@ -1,0 +1,22 @@
+Package: wpasupplicant-udeb
+Source: wpa
+Version: 2:2.6-14
+Architecture: armhf
+Maintainer: Debian wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>
+Installed-Size: 463
+Depends: libc6-udeb (>= 2.24), libcrypto1.1-udeb (>= 1.1.0f), libnl-3-200-udeb, libnl-genl-3-200-udeb, busybox-udeb
+Priority: standard
+Section: debian-installer
+Filename: pool/main/w/wpa/wpasupplicant-udeb_2.6-14_armhf.udeb
+Size: 228892
+SHA256: c6f1c5d9feb5889a961ee88d8f6a8c8c2f06451b20f9666f324ddc6625cc339a
+SHA1: b004ca36add49d91329a8e76822179affadc221c
+MD5sum: 22398ab761020c88dc2f1d77256ba026
+Description: Client support for WPA and WPA2 (IEEE 802.11i)
+ WPA and WPA2 are methods for securing wireless networks, the former
+ using IEEE 802.1X, and the latter using IEEE 802.11i. This software
+ provides key negotiation with the WPA Authenticator, and controls
+ association with IEEE 802.11i networks.
+ .
+ This is a udeb of wpasupplicant for use by the debian-installer.
+
