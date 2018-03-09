@@ -681,19 +681,19 @@ Description: Debug symbols for libpulsedsp
 Build-Ids: e619f7116b51509d2fa57b82c4271f8823095428
 
 Package: librespeaker
-Installed-Size: 4616
+Installed-Size: 4612
 Maintainer: Seeed Technology Co., Ltd.
 Architecture: armhf
-Version: 1.2.0-build180130
+Version: 1.2.0-build180309
 Depends: libpulse-dev,libfftw3-dev,libatlas-base-dev,libsndfile1-dev,libasound2-dev
 Provides: librespeaker
 Priority: extra
 Section: Sound
-Filename: pool/main/libr/librespeaker/librespeaker_1.2.0-build180130_armhf.deb
-Size: 1055402
-SHA256: b72607e105b51a640a9843a81570e2a800c2bdf29792b53b2a7b5754b5cd9d8e
-SHA1: 9607fffad28c5bb7e71d2825025834c626f820e1
-MD5sum: ea7373c7de2d89d9085601262e4f5eb2
+Filename: pool/main/libr/librespeaker/librespeaker_1.2.0-build180309_armhf.deb
+Size: 1055494
+SHA256: 7d284a8f05d991bac89f62b02919bff2d53e9cb01c87ba493db551a1ebe7617d
+SHA1: c76cf841e4e3ed0e3c017cd1dc09a410304d04cf
+MD5sum: faf1bb972038f3e285cdc285a177b72a
 Description: librespeaker is an audio processing library which can perform noise suppression, direction of arrival calculation, beamforming, hotword searching. It reads the microphoone stream from pulseaudio server. It exposes a few APIs which enable users to get indicated when hotword is said and the processed microphone data in PCM format, which then can be sent to cloud services like alexa for further processing.
 
 Package: libupm-dev
