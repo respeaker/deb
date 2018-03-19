@@ -1,36 +1,37 @@
 Package: apxxx-helper
-Version: 0.0.1-1
+Version: 0.0.2-1
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
-Installed-Size: 29
+Installed-Size: 30
+Depends: re-bluetooth
 Homepage: http://respeaker.io
 Priority: optional
 Section: misc
-Filename: pool/main/a/apxxx-helper/apxxx-helper_0.0.1-1_armhf.deb
-Size: 7678
-SHA256: 0676488ce60d4b38231d72dae8f738d594e7dd7673fa5eca558f8a517d74e3e0
-SHA1: 597e66142fcb989702acaf158411286dc4f4672c
-MD5sum: 69effe075a4e1fb4d5692b9ee1fc3cb6
+Filename: pool/main/a/apxxx-helper/apxxx-helper_0.0.2-1_armhf.deb
+Size: 8196
+SHA256: 91ae62f4e60171f6f9920b295f35ea85923b3951f0749262359a8780d089a853
+SHA1: 060a078040807b24ee6e520650c015c6f03cdeec
+MD5sum: 3ea8095bfc48f49e6f8b442a2b7f15fd
 Description: help implement wifi and bluetooth in debian system
 
 Package: apxxx-helper-dbgsym
 Source: apxxx-helper
-Version: 0.0.1-1
+Version: 0.0.2-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
 Installed-Size: 33
-Depends: apxxx-helper (= 0.0.1-1)
+Depends: apxxx-helper (= 0.0.2-1)
 Homepage: http://respeaker.io
 Priority: extra
 Section: debug
-Filename: pool/main/a/apxxx-helper/apxxx-helper-dbgsym_0.0.1-1_armhf.deb
-Size: 11036
-SHA256: 9e9910b828fc45a9c82ca09ba755f14a203a729e1a27fc4f19735e0f52268b8a
-SHA1: d5be17b0714c0762ce6e8e5557089e2545f74b17
-MD5sum: 3238bdfa818654d41bc1a1b64cd76e89
+Filename: pool/main/a/apxxx-helper/apxxx-helper-dbgsym_0.0.2-1_armhf.deb
+Size: 11022
+SHA256: 2c769167b93d6376250da2593514156445686e80cea3adab4abd50ab0477ffa5
+SHA1: 700014239a8f270615e8c42d85db019af74808eb
+MD5sum: d58758cc5e43b548fd6fee94d29b2203
 Description: Debug symbols for apxxx-helper
-Build-Ids: 20047fc2b0b5fa01e287c1c29d29342fe08630ec d1a3bd156cd01223e34f3af64db38baefc64092d
+Build-Ids: ae685248356261012f27b53a653703f4b9e56af3 f9d91b9a59ecb4870a4b3c75ff3966fd1188b2c6
 
 Package: bluetooth
 Source: bluez
