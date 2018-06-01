@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: mraa
 Binary: libmraa-dev, libmraa1, libmraa1-dbg, mraa-doc, mraa-examples, mraa-tools, mraa-tools-dbg, python-mraa, python-mraa-dbg, python3-mraa, python3-mraa-dbg, python-mraa-doc, mraa-imraa, mraa-imraa-dbg, libmraa-java, libmraa-java-dbg, node-mraa
 Architecture: amd64 i386 arm64 armhf all
-Version: 1.8.0-git20171121-0re2~re2+20171121+1
+Version: 1.9.0-git20180601-0re2~re2+20180601+1
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Standards-Version: 3.9.6
@@ -26,11 +26,11 @@ Package-List:
  python3-mraa deb python optional arch=amd64,i386,arm64,armhf
  python3-mraa-dbg deb debug extra arch=amd64,i386,arm64,armhf
 Checksums-Sha1:
- ff2a4360a88701f167974b5374312e4c48638725 260960 mraa_1.8.0-git20171121.orig.tar.xz
- ed20feb5ed0162cfe65600a4474977c62ac499dc 4000 mraa_1.8.0-git20171121-0re2~re2+20171121+1.debian.tar.xz
+ e848c5152a8c98e9a9f8dfed84d8c8b174c9c618 273372 mraa_1.9.0-git20180601.orig.tar.xz
+ 387f9e26a136ccdcaa85fbbd2936c1cd0f82dcb9 4012 mraa_1.9.0-git20180601-0re2~re2+20180601+1.debian.tar.xz
 Checksums-Sha256:
- 2dade3bd7ba084e93699ebe1c6b69bb298a8796e42c9c7694c804ca9a385073f 260960 mraa_1.8.0-git20171121.orig.tar.xz
- 53fadc1e37044423280c2c9074fb72c838ba2dda2ca1ba2ce88ab1f956b81d7d 4000 mraa_1.8.0-git20171121-0re2~re2+20171121+1.debian.tar.xz
+ 347d2a0e5f496f92baf65a71f8ab4626722bf0535a1c87c404f681b149af0518 273372 mraa_1.9.0-git20180601.orig.tar.xz
+ d9d0fcc57d7194bad98c87ab41341434740f55f46438ddc354d9a99ffc00c790 4012 mraa_1.9.0-git20180601-0re2~re2+20180601+1.debian.tar.xz
 Files:
- 5b31da089d2072e44346d235e863ce44 260960 mraa_1.8.0-git20171121.orig.tar.xz
- 67a5f7107957963de62bdeb795b0d521 4000 mraa_1.8.0-git20171121-0re2~re2+20171121+1.debian.tar.xz
+ c8757ae9903318141f7a52c346960d23 273372 mraa_1.9.0-git20180601.orig.tar.xz
+ 0c5f884a82d1e2b0d2fcfd688a3f0f50 4012 mraa_1.9.0-git20180601-0re2~re2+20180601+1.debian.tar.xz
