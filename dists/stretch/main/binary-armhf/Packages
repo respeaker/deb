@@ -1988,22 +1988,6 @@ MD5sum: b8f509e0df1baf05e1dd4976b571b25e
 Description: respeaker v2 wifi preinit script
  The archive project works for respeaker v2 wifi
 
-Package: respeaker-osconfig
-Version: 2018.1.4
-Architecture: armhf
-Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
-Installed-Size: 23
-Depends: gnupg2 | gnupg
-Priority: extra
-Section: misc
-Filename: pool/main/r/respeaker-osconfig/respeaker-osconfig_2018.1.4_armhf.deb
-Size: 2808
-SHA256: aaf481e16e30c72a0e52f0a654276c3e958217eb1563b2d98c7fe647e7aec6d7
-SHA1: eda63cb50675df6e38952c5e6c89d3118e27ac36
-MD5sum: e77fd25920bf33c822672b368a7b26a7
-Description: respeaker debian os config files
- some os config files
-
 Package: rk-firmware
 Version: 2017.08.22~re+20170822+1
 Architecture: armhf
