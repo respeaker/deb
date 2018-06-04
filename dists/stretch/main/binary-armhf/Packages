@@ -2106,18 +2106,18 @@ Description: examples for UPM
  This package contains UPM examples.
 
 Package: usbg-manager
-Version: 2017.08.29~re+20170822+1
+Version: 2018.06.04~re+20180604+1
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
 Installed-Size: 15
 Depends: gnupg2 | gnupg, udev
 Priority: extra
 Section: misc
-Filename: pool/main/u/usbg-manager/usbg-manager_2017.08.29~re+20170822+1_armhf.deb
-Size: 2306
-SHA256: f96d008b49005db5b20a2faada046b3cb318b14f926c894b65289ac5f251391d
-SHA1: 01da10842d3581ba970f9038ef11c8c90400bc17
-MD5sum: 97792c655d8d78f1659219f448b7a948
+Filename: pool/main/u/usbg-manager/usbg-manager_2018.06.04~re+20180604+1_armhf.deb
+Size: 2404
+SHA256: 329403b32e34809e10921614b5b2e206eee6db14f60bf4caa997b39911e41d1f
+SHA1: 5b026706897759c4b26d87507d7c600b69c65f92
+MD5sum: 0c99d6599c2a3c3c556306089a01b918
 Description: USB gadget manager for respeaker v2
  The archive project works for respeaker v2 usb gadget serial network audio
 
