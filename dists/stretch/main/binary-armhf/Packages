@@ -1251,18 +1251,18 @@ Description: Mobile telephony stack (development files)
  This package includes the header files for building oFono plugins.
 
 Package: os-config
-Version: 0.0.1
+Version: 0.0.2
 Architecture: all
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
-Installed-Size: 130
+Installed-Size: 134
 Depends: gnupg2 | gnupg
 Priority: optional
 Section: utils
-Filename: pool/main/o/os-config/os-config_0.0.1_all.deb
-Size: 24882
-SHA256: 1a5e26f79ebd56faa14b77cf5b70cdc1dd82f4a29e77262b3399eecc7555ab17
-SHA1: c45bbcdf9399552787a9287de4ef91bbcbbcb024
-MD5sum: 2b3fe394f9d462e359f6f472d64afb67
+Filename: pool/main/o/os-config/os-config_0.0.2_all.deb
+Size: 25156
+SHA256: fb2d128e935752275012cc78a70931b684443eeb4d8061bd70de23186e5a0178
+SHA1: 6589147f76c1dc3d726db9462b0608f1268dbc86
+MD5sum: bacf8c9cc43fbdd952b1e1e39af34567
 Description: respeaker debian os config files
  some os config files
 
