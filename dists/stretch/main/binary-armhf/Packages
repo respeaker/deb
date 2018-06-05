@@ -819,10 +819,10 @@ Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-4.4.126-respeaker-r1/linux-firmware-image-4.4.126-respeaker-r1_1stable_armhf.deb
-Size: 125360
-SHA256: b21f640d8c739bb145fc99ea5c1f291a6717dd23cb68b5942bb50656222f440a
-SHA1: 5ad7556ae676990e3ad590e40937617625e7aa24
-MD5sum: a3a9f11e204cfbae59995abed21a0989
+Size: 125618
+SHA256: ad2444e516c0ae9a74aa6aa537e63c068e84f84e0f6911069c5dd0fe8145ce54
+SHA1: 3829d089c0eaa487adf47a84e06cfe8d60ce59bc
+MD5sum: e66955142e18f2b61a83087f3bb2a7b0
 Description: Linux kernel firmware, version 4.4.126-respeaker-r1
  This package contains firmware from the Linux kernel, version 4.4.126-respeaker-r1.
 
@@ -848,16 +848,16 @@ Source: linux-4.4.126-respeaker-r1
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@bz>
-Installed-Size: 49988
+Installed-Size: 50004
 Provides: linux-headers, linux-headers-2.6
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-4.4.126-respeaker-r1/linux-headers-4.4.126-respeaker-r1_1stable_armhf.deb
-Size: 7706368
-SHA256: 34c6044d35a94df27cf18732ebbab72f34fe7eba97f5ffe79f6bc0c04d557144
-SHA1: 85cc16b31aaf93ddf01eb86a28aad4716e0711ce
-MD5sum: 987b271779e30a850e4c0b419e9067e6
+Size: 7708258
+SHA256: 2df5d42398ae0386ec8f22b3a892b530135cbebd65cfc1878fe12e88ea4e3aab
+SHA1: 294bc58a72f3033473cd953f1d72357a1315a63c
+MD5sum: af8341a58bb59c06cfcfc16528080104
 Description: Linux kernel headers for 4.4.126-respeaker-r1 on armhf
  This package provides kernel header files for 4.4.126-respeaker-r1 on armhf
  .
@@ -908,17 +908,17 @@ Source: linux-4.4.126-respeaker-r1
 Version: 1stable
 Architecture: armhf
 Maintainer: Anonymous <root@bz>
-Installed-Size: 36938
+Installed-Size: 37761
 Suggests: linux-firmware-image-4.4.126-respeaker-r1
 Provides: linux-image, linux-image-2.6, linux-modules-4.4.126-respeaker-r1
 Homepage: http://www.kernel.org/
 Priority: optional
 Section: kernel
 Filename: pool/main/l/linux-4.4.126-respeaker-r1/linux-image-4.4.126-respeaker-r1_1stable_armhf.deb
-Size: 12770582
-SHA256: df4185382a517b4abf80702fdee4a83a7d05005ac66ff7d88224817c46c6940f
-SHA1: ad8c9e5af37ea9e22168989884c8a67709f0fb6f
-MD5sum: 3bc4dd2881662fde34b0a80b7c164d15
+Size: 12862230
+SHA256: a1aeb873f911a1334a254c7aa7ac24175f83806df1a773072323bdc11cba3cbd
+SHA1: 8f3eb8f603a3212e38515ef76aee96e67310e37f
+MD5sum: 24b53038a8e0bb8aa2e2d29b5e403611
 Description: Linux kernel, version 4.4.126-respeaker-r1
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.126-respeaker-r1.
