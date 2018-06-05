@@ -5,13 +5,13 @@ Origin: respeaker.io
 Label: respeaker.io
 Suite: stable
 Codename: stretch
-Date: Tue, 05 Jun 2018 10:57:17 UTC
+Date: Tue, 05 Jun 2018 13:48:46 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for respeaker.io
 MD5Sum:
- e1aa6d7fcf7aace2066272923a2ccb07 138278 main/binary-armhf/Packages
- 0ef7812063fad44c0bb6227f1bd0a028 49738 main/binary-armhf/Packages.gz
+ 74185b7d6be38f91479b65ef3467ebeb 138278 main/binary-armhf/Packages
+ b85e4e5c24d4abfb2e7b7f97db0b5fd3 49736 main/binary-armhf/Packages.gz
  12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
  0c989b9718ebfd7a8377adc2cabea30f 957 main/debian-installer/binary-armhf/Packages
  087ba796d4428a754e7c2673ae2da430 582 main/debian-installer/binary-armhf/Packages.gz
@@ -19,8 +19,8 @@ MD5Sum:
  510f9e349bdbd2778250ba0d386b4a8e 7484 main/source/Sources.gz
  50358237bf4ba57a9d73e8f635123fb8 139 main/source/Release
 SHA1:
- 32190371cf28f161b99dece0eedb076eb8067da5 138278 main/binary-armhf/Packages
- 86882083f0f37e24dc9952f0c844e5c448cc12f7 49738 main/binary-armhf/Packages.gz
+ 5b8e4b9c129d100afd59c190cb4155fd830e1522 138278 main/binary-armhf/Packages
+ 4ff2d92ca5d7c1b1dc8a57eba3ce447c924d7647 49736 main/binary-armhf/Packages.gz
  4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
  8a98234ce68361bb7153763e9468c012e54afdef 957 main/debian-installer/binary-armhf/Packages
  cf4c6c9c63cd6eb84f2b6492448044ad372c0169 582 main/debian-installer/binary-armhf/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  d8dbd8c60ab7a6ab398abd6e03387dc0d437e9e4 7484 main/source/Sources.gz
  62f46b42e36fc13c8a7de13476f6ecfe0b1fe1ae 139 main/source/Release
 SHA256:
- 50a41f1beb33f3ad7ba8cccd2a9fcbcc765074928a21340dd148b6c8573c2f5c 138278 main/binary-armhf/Packages
- 09f4a1d11c31702e40762b24aaf016bad406c1883b5be4527a566e96e4bacfa0 49738 main/binary-armhf/Packages.gz
+ 6200766e441c4cca20f744c940a335f3df3710cdce3ae4977dbf3534f9b5a9a1 138278 main/binary-armhf/Packages
+ df31eff90d2dbe13ab326dd1a5162f899bc2d1564c2f4dea2969767d8e6057c0 49736 main/binary-armhf/Packages.gz
  adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
  cbe9bd8188ff819f3506624975a8f772ee20ccaae838fec58bd346aa967555c9 957 main/debian-installer/binary-armhf/Packages
  e6aeba53064fb93f69b7fd389cc42c2a59635abfe045f055a036baf6f530b2f7 582 main/debian-installer/binary-armhf/Packages.gz
@@ -38,17 +38,17 @@ SHA256:
  908a5b420958dbb3103f2f050c1597855da92997ca5b570ac70e9eb620d2620d 139 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlsWbI0ACgkQ3GEhV0o7
-+KwdphAAnPmlyvPgZDe6LtiPGjcZynPuUWvHi+hQhPlkLpaGAUXdqnmgkYK4SaRU
-iQplApr1e8zIG0PPCMrDRgG1wlTtT0+mIsOz88aY42KWpi0n5AnhzkhkLT+fgGbb
-pChdrqMHPhtQFUpnBy78LxNOUwqvxYRFt6dlSknpOjy7/F6hnILpZaualuc7wB9J
-3PBuTiR4FEDpeTM9UEXe46Rudm9b12eFRV7ABVlxf0exFtrGdZxAE2zwIYTlyScm
-eenOf34W50qcZZtUL/XPr02LXUNex1Sg5tqCipEsPv+GpWw3FR2rC7f/kabWiMFg
-MQB2+92l4KNqIDyvPE4kr5B1wbtvYEkbhPtP6ngmcux0IQZuIylHNFIWPTHde2TK
-oW3XCdnkwSKXD+SZm/Q6wdGOSz470aKSKyooc5YRQPUmf8QOPCUgV69m4n04f5Ko
-kO/GS3uqy79vCEuy2zmsCT4612r0EGDJKJIXfE3beZVg14wZt4FR8lwV8+OMtSOZ
-Zb2hMpald9a/WW/nvrusgsYBDIU0F1GzUqDuaTnz7H46Um6CFTcXiQGZ0FVEjmlX
-SFzVk1zclIH0ZuE7nzBEBs7JC5V6hFAc3jKhuYEQKrei9w//vTB7a5FJWM8B1BaM
-ruWo7GMU9vEd+zuUvDvuS51ZU2Zy8O740quloiqZvNunkFWF3F8=
-=nYS3
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlsWlL4ACgkQ3GEhV0o7
++KyMAhAAiUYIpmWoQYrmEfxBJ9CIa0T8+tb8nJLYSrGNA719eFHd0u6fuQawru18
+fvuMvlLwMpxD4V/juIU0jWngPzx1DSY5n9CkFJq+1/3QUvKrCv7D5B/J20MJbiJY
+xajCHmppQu0YX2gv1ddDW1OtM8VcGjAgWTSB8WDh90VNI2x7vXYWk5nFOMYKBg6X
+d3saLcmlmOs6mP7q1hv6GDB79UugwmMK8G2FQHwLBzSHDB1fDHmvxnipsoXC2H1d
+AYTfGVjVIJpLIfEQT7XEcyYAf7AI7YM9PEf9onbCFcvyRNZOIHzEDjjF1m18prSr
+ohpa2SgqT1ErryzX9UU6bu2n8bH6XV1RhD4L2mo8MeRqgYeXI+L+6Gq3cFY0746d
+eXQb4yDMIXj/u5uHGHt4mo+Op5Lhd1jrjRud7Qu4a8XsFy+XDg9KmVxwoSqO8s8Q
+xOqGMG4EW5y1TewBzXyyXeu9asbLU0+JClUmHYo8PvXf4BaqEKiYYNV0cS7jlXNe
+W27zID6hKC/B+t2GkGnldFVios0ujmnTHcM79Eka/m7Evm2Y4bRk895GkJWz2NMT
+GPP9bDSyITfSGfTN+DqIe9dMr4iLPzyOmKQ12ITaCuv3O3lyl4nXAgXCeEUTDd1J
+CjWIdEdyq/7VC/Zme1TCfX/Jacw3Gk9UXdCc0GI591up7ZobpbA=
+=qzut
 -----END PGP SIGNATURE-----
