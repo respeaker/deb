@@ -1989,18 +1989,18 @@ Description: respeaker v2 wifi preinit script
  The archive project works for respeaker v2 wifi
 
 Package: rk-firmware
-Version: 2017.08.22~re+20170822+1
+Version: 2018.06.09~re+20180609+1
 Architecture: armhf
 Maintainer: Baozhu Zuo <zuobaozhu@gmail.com>
-Installed-Size: 11605
+Installed-Size: 12999
 Depends: gnupg2 | gnupg
 Priority: extra
 Section: misc
-Filename: pool/main/r/rk-firmware/rk-firmware_2017.08.22~re+20170822+1_armhf.deb
-Size: 2033090
-SHA256: a1c299cbcd55f422d60aa6ecb080609b0a66ef9bdae4f6b1ec07cabacdd742e2
-SHA1: f17731543b5cf7ad0034da67b9cf8320aea28ed3
-MD5sum: 03512cb6cb5cf8ef12d2237fa76635cd
+Filename: pool/main/r/rk-firmware/rk-firmware_2018.06.09~re+20180609+1_armhf.deb
+Size: 2216436
+SHA256: 5ed48a8249ddd7f0711b3560001de2c3abc37bfb7ba189e040532dd1b5ddc571
+SHA1: 98a3ebe35ba52fe8a016cc915531ebda5147d19f
+MD5sum: cb51cf6f59a21d6c6782ffd982b5beaa
 Description: wifi/bt firmwares
  The archive project works for respeaker v2 wifi/bt firmwares
 
