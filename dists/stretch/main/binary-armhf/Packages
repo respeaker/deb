@@ -1968,6 +1968,22 @@ MD5sum: b8f509e0df1baf05e1dd4976b571b25e
 Description: respeaker v2 wifi preinit script
  The archive project works for respeaker v2 wifi
 
+Package: respeakerd
+Installed-Size: 2632
+Maintainer: Seeed Technology Co., Ltd.
+Architecture: armhf
+Version: 1.0.0-build180716
+Depends: librespeaker (>= 1.4.0),libsndfile1-dev,libpulse-dev,libasound2-dev
+Provides: respeakerd
+Priority: extra
+Section: Sound
+Filename: pool/main/r/respeakerd/respeakerd_1.0.0-build180716_armhf.deb
+Size: 2215450
+SHA256: 3b69534ae6ccd4db2de66e218eda0aa3264bfb72e17f51b3c684748e8aa62619
+SHA1: 90bbb3d40652da870570ffab300ad04c38d5bf96
+MD5sum: aad39dc03c486580ae88a085ad02a13b
+Description: Package created with checkinstall 1.6.3
+
 Package: rk-firmware
 Version: 2018.06.09~re+20180609+1
 Architecture: armhf
