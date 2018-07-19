@@ -685,16 +685,16 @@ Package: librespeaker
 Installed-Size: 4684
 Maintainer: Seeed Technology Co., Ltd.
 Architecture: armhf
-Version: 1.4.0-build180626
+Version: 1.4.1-build180719
 Depends: libpulse-dev,libfftw3-dev,libatlas-base-dev,libsndfile1-dev,libasound2-dev
 Provides: librespeaker
 Priority: extra
 Section: Sound
-Filename: pool/main/libr/librespeaker/librespeaker_1.4.0-build180626_armhf.deb
-Size: 1078212
-SHA256: b356914f7b4ff146d0f7292eae5b321b3a11a9bd8de1a7b35cc9009291995379
-SHA1: 84872acd0d42adbb4850008a091e3c48db7b001a
-MD5sum: 7344ed9539acbe3eccd2d5f28bfe0e7b
+Filename: pool/main/libr/librespeaker/librespeaker_1.4.1-build180719_armhf.deb
+Size: 1077348
+SHA256: 8da5d28ca0d2ca9bec78a5acfa7d96cf80fea02a7b1265539717f8d37f933567
+SHA1: 3c2abdf0296e5dff322dd3f9c8280de69267b4b4
+MD5sum: f9b224424aa2dc72664cf2190f59c41f
 Description: librespeaker is an audio processing library which can perform noise suppression, direction of arrival calculation, beamforming, hotword searching. It reads the microphoone stream from pulseaudio server. It exposes a few APIs which enable users to get indicated when hotword is said and the processed microphone data in PCM format, which then can be sent to cloud services like alexa for further processing.
 
 Package: libupm-dev

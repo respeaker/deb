@@ -5,13 +5,13 @@ Origin: respeaker.io
 Label: respeaker.io
 Suite: stable
 Codename: stretch
-Date: Mon, 16 Jul 2018 12:43:29 UTC
+Date: Thu, 19 Jul 2018 01:46:40 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for respeaker.io
 MD5Sum:
- 5d8c132b267018c1e81107ffc53492d7 138068 main/binary-armhf/Packages
- ced4e63f3ec6af491a58bef816a59aa4 49818 main/binary-armhf/Packages.gz
+ e6117221e8e7da5f76f5d8288f9c9ee4 138068 main/binary-armhf/Packages
+ 08cb5874a0c66f654281327da7d35dfc 49818 main/binary-armhf/Packages.gz
  12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
  0c989b9718ebfd7a8377adc2cabea30f 957 main/debian-installer/binary-armhf/Packages
  087ba796d4428a754e7c2673ae2da430 582 main/debian-installer/binary-armhf/Packages.gz
@@ -19,8 +19,8 @@ MD5Sum:
  c66eba80f7818c93cd49ca2c116432c3 7479 main/source/Sources.gz
  50358237bf4ba57a9d73e8f635123fb8 139 main/source/Release
 SHA1:
- 2c7cda23df2dc473198d3b9db1734961259a1a92 138068 main/binary-armhf/Packages
- dba5351bf142975bc320374e174d6105609eaf8b 49818 main/binary-armhf/Packages.gz
+ 7cbdb7759d463f9ffef75605bfd869bd52750244 138068 main/binary-armhf/Packages
+ 3e2439347a98df5bd38a2817d6105fc7d247874f 49818 main/binary-armhf/Packages.gz
  4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
  8a98234ce68361bb7153763e9468c012e54afdef 957 main/debian-installer/binary-armhf/Packages
  cf4c6c9c63cd6eb84f2b6492448044ad372c0169 582 main/debian-installer/binary-armhf/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  7c6bc3cef4605a17a9383c270170bfa9363600b6 7479 main/source/Sources.gz
  62f46b42e36fc13c8a7de13476f6ecfe0b1fe1ae 139 main/source/Release
 SHA256:
- 8b5747a9fb3369a85f8d759bd2510934ae8398efd71fad18dc56f0486f8b8d9e 138068 main/binary-armhf/Packages
- 205672e6b8f033655c8e7f3475ed213e0238c32368d58901938c687099c3c02e 49818 main/binary-armhf/Packages.gz
+ 96fb7a4272feef3abe281304610ed8ad29c55bb73edcba1b6f10918c7608f036 138068 main/binary-armhf/Packages
+ 37d9cf6d8345bdfb0ecabf91cb286fc2dab17eac027fc99c16782d9c4861f710 49818 main/binary-armhf/Packages.gz
  adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
  cbe9bd8188ff819f3506624975a8f772ee20ccaae838fec58bd346aa967555c9 957 main/debian-installer/binary-armhf/Packages
  e6aeba53064fb93f69b7fd389cc42c2a59635abfe045f055a036baf6f530b2f7 582 main/debian-installer/binary-armhf/Packages.gz
@@ -38,17 +38,17 @@ SHA256:
  908a5b420958dbb3103f2f050c1597855da92997ca5b570ac70e9eb620d2620d 139 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAltMkvIACgkQ3GEhV0o7
-+Kz4bA/+NgmRjqif6UzPgCJ00F4cnfBKzcpTTB2TH2AZ34ZZF1wxQX8mU/T2S4C4
-7Jn4aWbf8IyL1zpynpFNFFpGsR50vL+dCPFW9XlnjXQVlf1mKEeDkrHukxA8igEb
-R7X9WdohA3CUYw1N/FjuodUK3gzduuDPi53d3a5llKLHbx/U9zu+0esHutL1F61x
-4f98lBvsCWtzM68QN/usC3qqf+Wvrv38kwb85yHgdX78ojrNxnnr3oXYF41fPnpK
-HVJdBCLIEzdvF69FlK5LxQQ3QuRfQeSSt4P+TyNS/AxSaLNntSyh1xpMbaHX7ceI
-X48zgpTy0XHJfVRGyFLe5g+IBpZDHzzTwQaN3dnGC2gnFF/Kja4BAA030VZxST+V
-GnEv2vVO4wgfVcgJ7ciGwuzT7hWnAvivGQiliCXODJewy6jUsEsy/P7iYVyvOdsQ
-IzuRQRq1OnlSDVVOwGj42Jr2TdGsot1jRYzVLXhqLR0Dsb0eoURKBXG/9ndbPi6t
-QSvGuzivWcwA6b+wbD5Y0+2S6OMXXX71ful5pL5cOM3C2r2w05jNV03toaZlk/Hv
-71z921v0fLKWBSrjzC//rkZInrsBhDMD6pIiGg0SBIjVTKc4sQpke5INeLYjwq3k
-hOAHestzzN++c4A62YZ2aOYTrHKKIRpV6I46KoLylUljiMQt0tM=
-=AbWg
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAltP7YEACgkQ3GEhV0o7
++KzMbQ/+KZ5iAPZId9U2purXT242/70LhfQGlYAGKTkXtPKHvwcTeIqu+nOzA2av
+dnC0v5mudFzQIY647QOnGMQwzaVtq82QEgIN+Au8fD0SOZBxXCKoQEJfm7GYX+yM
+Mxr10FsMc574JhLl7d9J7I8AXOExV35sJblBaZGxwwM6/uy0KwIOnPf7KUF8Iroa
+LkesWV0vZnsPHTNdQ5tBsNScsHwknGwYGbeU7UMqlEHjMsfMnxU7y4ijJNZEqatN
+A2i8GG93Mu6ZWChEokzbYKsIjYcpCZUyyD2RX+qzQTA3HonMwFHonX+wYkSZxzih
+/T59O4GzCIedoLBQ4XJ6ZTSxTdmMtGzUzkZF6c+mIgLIrIGZDdkWy5tu5xyW526I
+kDFO/7w4MHuEiWORw0klFh/HCwWP/on2HQU3ChGPR4sEp+GR4I08CMq2pQ4g3yAu
+TDhxYZtAPdzgD0NwTo0suLbgdLWRrgvHlABqjOAv1Ga15PI7xbuSG0UPI4xb34ZD
+sZHl2upXd4pFL7XCJ7A8Uz0Pq6Lc6J8GbMxZwYwn9tdSXFyaut1gkrA0oGPiovYB
+hSAmh7NElexbev/5+Xw8DLlcxWpap5rBxH7U8l1NXnAiqvvZ79Hck1MKEcVvMCQ5
+afPSf1hmQ+z6SlGIjP747RoqQqyiPJCZtgpw1aNqvgKAZuBC2O4=
+=viHd
 -----END PGP SIGNATURE-----
