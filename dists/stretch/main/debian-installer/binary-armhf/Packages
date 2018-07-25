@@ -1,3 +1,20 @@
+Package: libdrm2-udeb
+Source: libdrm
+Version: 2.4.74-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 44
+Depends: libc6-udeb (>= 2.24)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/libd/libdrm/libdrm2-udeb_2.4.74-2_armhf.udeb
+Size: 20572
+SHA256: cb721a111b36368db3c99c3b1df24d6fd016ef7e1fdd196dc68cca55a60bfabf
+SHA1: d48274d7f165702eed94ed33dfcc2d601c3c7da3
+MD5sum: 172c679ef755ea8c6b869d6e649f2b6f
+Description: Userspace interface to kernel DRM services -- runtime
+ This is a udeb, or a microdeb, for the debian-installer.
+
 Package: wpasupplicant-udeb
 Source: wpa
 Version: 2:2.6-14
