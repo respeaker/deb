@@ -3088,17 +3088,17 @@ Build-Ids: d1c57604f3c0b09bc4c0bf1c60e41167b4387f48
 
 Package: xserver-xorg-video-armsoc
 Source: xf86-video-armsoc
-Version: 1.9.3-2
+Version: 1.9.3-3
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
 Installed-Size: 9
 Priority: optional
 Section: x11
-Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-2_armhf.deb
-Size: 2262
-SHA256: 4a389e3744b43e0a6a8855b399bbf63706066f37a4a7889c2826aec50fd1f614
-SHA1: 40549fe96196d317e5ec1f402badc5db91e482c4
-MD5sum: 9890d49b113263998130e2a8488a4f0b
+Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-3_armhf.deb
+Size: 2264
+SHA256: 3b96d12c634913eef25356bfa5ce2a506eb98894579d4f35d255050d32ea9a5c
+SHA1: 67ce9e281323b479cc20e83b808a5b31d963c0fc
+MD5sum: 364562eb717c22b56b431403ef838cef
 Description: X.Org X server -- ARM SoC display driver (transitional package)
  This driver for the X.Org X server (see xserver-xorg for a further
  description) provides support for OMAP2 and newer devices including
