@@ -2729,6 +2729,390 @@ MD5sum: 333c4e9b8a326f3c730bc58af7d6b3b9
 Description: Debug symbols for x11vnc
 Build-Ids: 6806b3d83744c7ca4bc25e71dc74a07be1457e11
 
+Package: xdmx
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1338
+Depends: xserver-common (>= 2:1.19.3-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.2.0), libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libx11-6 (>= 2:1.6.0), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont2 (>= 1:2.0.1), libxi6, libxmuu1, libxrender1, libxshmfence1
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xdmx_1.19.3-2_armhf.deb
+Size: 723710
+SHA256: 237d470bdd3ea26b37fa5a8166aa3477b62594c696cc7725f3394661a2fb888e
+SHA1: 9b45d488283784c77caefceb45942ce53de89d1f
+MD5sum: 22c9d15e47e886e88d34a2211c98c892
+Description: distributed multihead X server
+ Xdmx is a proxy X server that uses one or more other X servers as its
+ display device(s). It provides multi-head X functionality for displays that
+ might be located on different machines. Xdmx functions as a front-end X server
+ that acts as a proxy to a set of back-end X servers. All of the visible
+ rendering is passed to the back-end X servers. Clients connect to the Xdmx
+ front-end, and everything appears as it would in a regular multi-head
+ configuration. If Xinerama is enabled (e.g., with +xinerama on the command
+ line), the clients see a single large screen.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xdmx-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5645
+Depends: xdmx (= 2:1.19.3-2)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xdmx-dbgsym_1.19.3-2_armhf.deb
+Size: 5376024
+SHA256: d9dccf84b593a31721e3a4e2f0cc9d75ee1e7cfa5e0ff5b214e65fcc67e28466
+SHA1: 730f46d635b09a98e302899622794bdbe4b7004f
+MD5sum: a36e3efd36f8b63b4f883069ec324834
+Description: Debug symbols for xdmx
+Build-Ids: 599cd981bab0c5e3d2c7eb5ab7e78e40b63056b5
+
+Package: xdmx-tools
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 293
+Depends: xdmx, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.0), libc6 (>= 2.4), libdmx1, libx11-6, libxaw7, libxext6, libxmu6, libxpm4, libxt6
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xdmx-tools_1.19.3-2_armhf.deb
+Size: 92686
+SHA256: 6712c964d59f1db9edcafd802f7c2331d37c10ae5441ca544b176c7a4654151e
+SHA1: 955f54fde1b5c52d71dd56fc3eaf6c9b98f00986
+MD5sum: 27cd12c8a19d552dad7a956a4a36ad81
+Description: Distributed Multihead X tools
+ This package provides a collection of tools used for administration of
+ the Xdmx server; see the xdmx package for more information.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xdmx-tools-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 288
+Depends: xdmx-tools (= 2:1.19.3-2)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xdmx-tools-dbgsym_1.19.3-2_armhf.deb
+Size: 195314
+SHA256: 277d29d5e553f78a3e2c98f6a94aae6a3425f036a4a06eeeaf939b3e6fd6604a
+SHA1: b0531459ca6762105a762f5f2b2fd9a759ede6e0
+MD5sum: 8dc1c719062062c13a24769b0db05dcb
+Description: Debug symbols for xdmx-tools
+Build-Ids: 093fc2cb33365cfd375c8f082e495eeac79b454c 127b9661e91311095429249a30d9e0d6ea0e3e95 16d9ea8ad83569afe2699955d54d8a2a1d8a5322 1e306b04446bd10f77ecf2bc3731cd3b8f4cd2c2 230c023ed41cfda6377f1a860a39503092c347d6 41aad6b2b5dcb5368c62b804f383e47303598221 a0104a81c2e17da4e841f6ad1659d6216cfe8010 ac92187e76e0e16f4f4b95f417408671debe1012 cf04887d1c297560ffac4a45202bab2e1befaba3 d151c3d22f77281923706d835f85a01e819eb14b fe8d1eb339d37475ef725c51c1bc5f0889b87244
+
+Package: xnest
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1083
+Depends: xserver-common (>= 2:1.19.3-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.2.0), libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libsystemd0, libx11-6, libxau6, libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xnest_1.19.3-2_armhf.deb
+Size: 582014
+SHA256: c7b08e86302afdfaf32533cb24e4ed34e3a14c5a1fb2a3a910f5ba1e28689491
+SHA1: 5f1ea6322d774083f0381c3f12530cbf63da99f9
+MD5sum: 386f950d7c160966d40c4dc70d77ad28
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xnest-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3936
+Depends: xnest (= 2:1.19.3-2)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xnest-dbgsym_1.19.3-2_armhf.deb
+Size: 3696132
+SHA256: 1547ac46d965b899165f9db5252ebabc95fd8090ead5dbd84243d525c9e92ad6
+SHA1: 4193a841723ba8e7e81c1d3217526eda4d4503c3
+MD5sum: 054919d4edfcbbbc234b7537ea3ee518
+Description: Debug symbols for xnest
+Build-Ids: afd718152c544b635ee4f0d501d0370241588956
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3698
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xorg-server-source_1.19.3-2_all.deb
+Size: 3575074
+SHA256: 0cfd599fa1f3e141aa13639067907582308e06eddb4fc407752dfc5791652b39
+SHA1: f11bb615ee07fc23f0550d5ac6ee48917db5044c
+MD5sum: eac2bea91f158181a80ad8be83eef2a3
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 185
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-common_1.19.3-2_all.deb
+Size: 69682
+SHA256: ea8251e58fa6df8a7bb1e9b58e145689d4607503cd713cf1f302a553a9ce3d00
+SHA1: 106c68ddce27d52600eb1742c9de483c5760a3ef
+MD5sum: 6ca775af5ce8121d5c1257b004d6b18e
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+
+Package: xserver-xephyr
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1543
+Depends: xserver-common (>= 2:1.19.3-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.2.0), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.74), libepoxy0 (>= 1.0), libgcrypt20 (>= 1.7.0), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libx11-6, libx11-xcb1, libxau6, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-util0 (>= 0.3.8), libxcb-xf86dri0, libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xephyr_1.19.3-2_armhf.deb
+Size: 813052
+SHA256: 99c72330c3090a7c09f0aea4418fbad7fe2cdcd1d94bd90797b0e804cce7bef3
+SHA1: b0467030b64b85ab0bcb666eabd8453f8e3eeea4
+MD5sum: fc32a336a018e8cb415dcaf64bd24ac8
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xephyr-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 7383
+Depends: xserver-xephyr (= 2:1.19.3-2)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xserver-xephyr-dbgsym_1.19.3-2_armhf.deb
+Size: 6983088
+SHA256: a37674d8fa74028d74f651ec7f4221d8e2e4de0f08648076b4148fb26f6caf2c
+SHA1: 0a76cecf75fb2c101d06c1ca8524ef89a1ef6ee7
+MD5sum: 519d80f140c38295029e8a972eed3099
+Description: Debug symbols for xserver-xephyr
+Build-Ids: 1f69d0f1e3366afbbe9dbe14ec4e20ce73275806
+
+Package: xserver-xorg-core
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2389
+Depends: xserver-common (>= 2:1.19.3-2), keyboard-configuration, udev (>= 149), libegl1-mesa | libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.2.0), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.74), libepoxy0 (>= 1.0), libgbm1 (>= 10.2~0), libgcrypt20 (>= 1.7.0), libgl1-mesa-glx | libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), libpam-systemd
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Provides: xorg-input-abi-24, xorg-video-abi-23, xserver-xorg-video-modesetting
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-core_1.19.3-2_armhf.deb
+Size: 1162520
+SHA256: fd0cf695bb04346997a1e2b028a33b74a32f498a1812d58ae114c2c072f3b81f
+SHA1: 8fe1ce4ff443ecba5c2c367ea7ffd840159e162b
+MD5sum: ad0c9dae4f637770309f2820e5578c76
+Description: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-core-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 10259
+Depends: xserver-xorg-core (= 2:1.19.3-2)
+Breaks: xserver-xorg-core-dbg (<< 2:1.19.0-3~)
+Replaces: xserver-xorg-core-dbg (<< 2:1.19.0-3~)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xserver-xorg-core-dbgsym_1.19.3-2_armhf.deb
+Size: 9657150
+SHA256: 749f8292ce30febec08445bb8d2e5b7ba2bf16f918474163102ab290baf59c9d
+SHA1: 06c1e7aa2f50a5e20beef4558a2572bdf639e5c6
+MD5sum: d7594ad979456793fa25a5b144ab6d76
+Description: Debug symbols for xserver-xorg-core
+Build-Ids: 0339144a21f073a863ebd46b0ef1c68518f74183 0349b57748df5ec5fd70fecd8f94a63af6f2b739 248d4ecf10409aa01f17668122f7c92b5bd326c8 282f2f3b95834ee03c60886c506fb0ad2781a699 34b490b5efb29448b885b70c016a838f62a0d159 470907e5b4490580938850b3f123e4a237817695 69411af32846daf7a6b8b692b36bf591e20aacf7 7baf87329f86dfc78bb9af628437fb8e60fc8c03 9243109df825db9be611467fe3c72609bb001d20 92735e0898f87343a1615b1b16373b8b5eebd26a 95a0f38a45cccf2a7872bf8495cb66604a83a5b5 9b1527b7144b9fe945129ea5471d151065f396d3 9d875b3fe410b80d5508b125f82d400cf1fbdae6 bb823bbe2eb6d4346fb1c6d90739ec621d43dea0 c13b871bfa8d758748019462872a3fe1df6e941a
+
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1368
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-core-dev (>= 7.0.31), x11proto-input-dev (>= 2.3), x11proto-xext-dev (>= 7.2.99.901), x11proto-video-dev, x11proto-randr-dev (>= 1.5.0), x11proto-render-dev (>= 2:0.11), x11proto-dri2-dev (>= 2.8), x11proto-gl-dev (>= 1.4.17), x11proto-fonts-dev (>= 2.1.3), x11proto-xinerama-dev, x11proto-kb-dev, x11proto-xf86dri-dev, x11proto-resource-dev (>= 1.2.0), x11proto-scrnsaver-dev, x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-dri3-dev, x11proto-present-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-dev_1.19.3-2_armhf.deb
+Size: 241184
+SHA256: a15361b4a0ee84d07d9cd4df16eab604d139434c25f262766ac954739066a68f
+SHA1: 6861f0ee1f365c07b144b9fdb97b93dcf0390d7f
+MD5sum: 1623178492919f0b275299cf64f67974
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 211
+Depends: xserver-common (>= 2:1.19.3-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.0), libc6 (>= 2.4), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Homepage: https://www.x.org/
+Priority: extra
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_1.19.3-2_armhf.deb
+Size: 77660
+SHA256: 708c985109229e848fcd31d45242c202087cf4206f0e3b09d148721147385c0b
+SHA1: 121ad7bcffdbacc176a4a58ae6619e6904502459
+MD5sum: 26525645a289be96ad65efd5e67410ec
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xorg-legacy-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 23
+Depends: xserver-xorg-legacy (= 2:1.19.3-2)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy-dbgsym_1.19.3-2_armhf.deb
+Size: 9854
+SHA256: 48bd0f9fc70b2b08e64c5ac0165013448c9e0405fe3331afac9d379491aded6f
+SHA1: 197256249f900aa1b21205724e0eded6cbacfa45
+MD5sum: 2ed7b415a1d12a68a0fe82cf4c7f0987
+Description: Debug symbols for xserver-xorg-legacy
+Build-Ids: d1c57604f3c0b09bc4c0bf1c60e41167b4387f48
+
+Package: xserver-xorg-video-armsoc
+Source: xf86-video-armsoc
+Version: 1.9.3-2
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 9
+Priority: optional
+Section: x11
+Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-2_armhf.deb
+Size: 2262
+SHA256: 4a389e3744b43e0a6a8855b399bbf63706066f37a4a7889c2826aec50fd1f614
+SHA1: 40549fe96196d317e5ec1f402badc5db91e482c4
+MD5sum: 9890d49b113263998130e2a8488a4f0b
+Description: X.Org X server -- ARM SoC display driver (transitional package)
+ This driver for the X.Org X server (see xserver-xorg for a further
+ description) provides support for OMAP2 and newer devices including
+ Samsung Exynos5.
+ .
+ The driver depends on drm support in the kernel, which is
+ in the staging area of the mainline kernel since version 3.3.
+ .
+ More information about X.Org can be found at:
+  * <URL:http://www.X.org>
+  * <URL:http://xorg.freedesktop.org>
+  * <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
+
 Package: xtightvncviewer
 Source: tightvnc
 Version: 1:1.3.10-0ubuntu4~re+20170829+1
@@ -2784,4 +3168,62 @@ MD5sum: 39a861af2eec57b732d136761579ce87
 Description: Debug symbols for xtightvncviewer
 Build-Ids: 5fb7983b70273b34285f4ed95f913dc86d016ffa
 Original-Maintainer: Ola Lundqvist <opal@debian.org>
+
+Package: xvfb
+Source: xorg-server
+Version: 2:1.19.3-2
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1321
+Depends: xserver-common (>= 2:1.19.3-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.2.0), libc6 (>= 2.17), libgcrypt20 (>= 1.7.0), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: xauth
+Provides: xserver
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xvfb_1.19.3-2_armhf.deb
+Size: 694196
+SHA256: c78a39c47fc1f40caf93f8d3c9f5fee3915d13a9f609a9ee1d4c7e6c52f1d39f
+SHA1: 80e7cdbefd8d7c8d66fcabb75963b7b1582ff9e9
+MD5sum: 9c67339be23bb4983f03c4a3f4bc0de2
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xvfb-dbgsym
+Source: xorg-server
+Version: 2:1.19.3-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4836
+Depends: xvfb (= 2:1.19.3-2)
+Homepage: https://www.x.org/
+Priority: extra
+Section: debug
+Filename: pool/main/x/xorg-server/xvfb-dbgsym_1.19.3-2_armhf.deb
+Size: 4498516
+SHA256: 8e8027728e359bfb313b23068dcc0cc03fe30a85639f762e6030c57fdea94666
+SHA1: 761b1da405654333c0e1f50cb3d68070121d6158
+MD5sum: c9a86d83311b70258d14df9d0d48f8b1
+Description: Debug symbols for xvfb
+Build-Ids: d7cc14ba244d8a917582f03645ce08462f4e2d43
 
