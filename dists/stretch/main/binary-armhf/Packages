@@ -3186,17 +3186,17 @@ Build-Ids: d1c57604f3c0b09bc4c0bf1c60e41167b4387f48
 
 Package: xserver-xorg-video-armsoc
 Source: xf86-video-armsoc
-Version: 1.9.3-4
+Version: 1.9.3-5
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
-Installed-Size: 73
+Installed-Size: 76
 Priority: optional
 Section: x11
-Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-4_armhf.deb
-Size: 30810
-SHA256: 4f7c956ae1a2e37784cfc27cc20f99445d8e0ea9b046923fc677a918c74d5626
-SHA1: 8637ecf6a0125b63d9840286694c388f57241d53
-MD5sum: d2b2dc83cdb48bcd5e6fd0b2c98c6e48
+Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-5_armhf.deb
+Size: 31646
+SHA256: 13b7de736d9346fcd5454b215ecb73436926a5a2ef28bd881f11bed6475c4ef8
+SHA1: 9367a2eaaddc0ba3a60b0d7fc3686b12420e799a
+MD5sum: 6f99d38a4ae7bc7e656f92e126e65867
 Description: X.Org X server -- ARM SoC display driver (transitional package)
  This driver for the X.Org X server (see xserver-xorg for a further
  description) provides support for OMAP2 and newer devices including
@@ -3213,21 +3213,21 @@ Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
 
 Package: xserver-xorg-video-armsoc-dbgsym
 Source: xf86-video-armsoc
-Version: 1.9.3-4
+Version: 1.9.3-5
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
-Installed-Size: 216
-Depends: xserver-xorg-video-armsoc (= 1.9.3-4)
+Installed-Size: 218
+Depends: xserver-xorg-video-armsoc (= 1.9.3-5)
 Priority: extra
 Section: debug
-Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc-dbgsym_1.9.3-4_armhf.deb
-Size: 193642
-SHA256: 6f2d745c07dc67caf3a6777982d62cfcf95d8ab9c4f14c67477f84c1028200a5
-SHA1: 5e244df687d94a7576209b4035f6c49ad36b58cf
-MD5sum: 663399e954aebcdad616bc6425c512ca
+Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc-dbgsym_1.9.3-5_armhf.deb
+Size: 194620
+SHA256: fe3a838fdf2b404075471fdad0f2b411283b90142c9a6f621accab822385ea15
+SHA1: ae546fb213e6cda8b49627bdeb4e8363a244f755
+MD5sum: f1ffcfac22e5cca0a5933770971d475d
 Description: Debug symbols for xserver-xorg-video-armsoc
-Build-Ids: 097d14ed10e4d0d35d785aa94a33222c561222ac
+Build-Ids: ad12ed7dac1026e039a20f66080c82721902f397
 Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
 
 Package: xtightvncviewer
