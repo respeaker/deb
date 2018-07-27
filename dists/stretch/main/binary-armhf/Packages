@@ -918,6 +918,25 @@ Description: The mali library for Rockchip RK3288.
  This package provides the development environment for compiling programs
  against the GBM library.
 
+Package: libmali-rk-utgard-400-r7p0
+Version: 1.6.1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 27
+Depends: libmali-rk-dev
+Replaces: libegl1-mesa, libegl1-x11, libgbm1, libgles2-mesa
+Provides: libegl1, libegl1-mesa, libgbm1, libgles2-mesa, libwayland-egl1-mesa
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libs
+Filename: pool/main/libm/libmali-rk-utgard-400-r7p0/libmali-rk-utgard-400-r7p0_1.6.1_armhf.deb
+Size: 2264
+SHA256: 5d2a027799b9ebafe2a30b3eac3a26cb8f33303b2fd31ad0b859c70258fdaa27
+SHA1: 527b9a8bca234824468b696428c6533f8e8cd6a3
+MD5sum: 6dcc11ed3581da2dfef152ab76ca5766
+Description: The mali library for Rockchip RK30 serial.
+
 Package: libmraa-dev
 Source: mraa
 Version: 1.9.0-git20180602-0re2~re2+20180602+1
