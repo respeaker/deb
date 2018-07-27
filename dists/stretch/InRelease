@@ -5,50 +5,50 @@ Origin: respeaker.io
 Label: respeaker.io
 Suite: stable
 Codename: stretch
-Date: Fri, 27 Jul 2018 02:41:10 UTC
+Date: Fri, 27 Jul 2018 06:43:41 UTC
 Architectures: armhf
 Components: main
 Description: Apt repository for respeaker.io
 MD5Sum:
- 14779ea8cc6c54da96d6b174abe04aa2 180863 main/binary-armhf/Packages
- cd63e824bd48e48ea2bed8ca8223128e 59740 main/binary-armhf/Packages.gz
+ 01255e9adc518ae782e64a69f9fb15f0 181607 main/binary-armhf/Packages
+ 9debf6399722aa9d12356685c70bde47 59911 main/binary-armhf/Packages.gz
  12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
  945ee75bd2c1ffb63c4ed3df90ffbfc7 1552 main/debian-installer/binary-armhf/Packages
  730bb3e01a361fcdc0733b138a7300b9 814 main/debian-installer/binary-armhf/Packages.gz
- 46e4f50123c3b2ea8df8a069c3307dc0 34420 main/source/Sources
- 77b5ba4310c7c0198b20963916f8d575 10093 main/source/Sources.gz
+ cb1ce1bec56d8a7ee326153dc0d8a4a2 34420 main/source/Sources
+ adf773ed0f9b398ce364f4b02e288545 10098 main/source/Sources.gz
  50358237bf4ba57a9d73e8f635123fb8 139 main/source/Release
 SHA1:
- 50c8b2e2b2cd5a6d74070dd1764235d8130a9135 180863 main/binary-armhf/Packages
- 1865a2da4956c0b7ef97a3fdb5a260db878d9cfe 59740 main/binary-armhf/Packages.gz
+ 8d1b5d120490028eaa76cf1485ef8a6ccf1aae7e 181607 main/binary-armhf/Packages
+ 2347e93e8ee06217f4435b72fda18380386f67ff 59911 main/binary-armhf/Packages.gz
  4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
  4b095759f94175446af1675330791d9926904ea0 1552 main/debian-installer/binary-armhf/Packages
  5b0a15caeb3e074fa05aab9cd2b4bd46750db636 814 main/debian-installer/binary-armhf/Packages.gz
- 98c02b8e4446d6b831bc6535134b462d1e810dd4 34420 main/source/Sources
- 09297775c220ac2ce362ea9bb1085e55a1ea23fb 10093 main/source/Sources.gz
+ dd17c6ed4f94d3af5bd96389bbd7f3d9567cf1df 34420 main/source/Sources
+ 18d1edd4d29c7c61b09e8a4279dad170d461bc24 10098 main/source/Sources.gz
  62f46b42e36fc13c8a7de13476f6ecfe0b1fe1ae 139 main/source/Release
 SHA256:
- 1b349a2cfe61485aaccc5de071a4489c5ac4a184bbd89f6917e52741aa010b53 180863 main/binary-armhf/Packages
- 553ba9f82d13e4c4df17dfdd7ddb5a63352a5f4eb485c45e717724b0e77d6c89 59740 main/binary-armhf/Packages.gz
+ 6c86bdf78999e6658cea59282ed03a5bf57893b7fd9ab1299a448d9e5f06c5ed 181607 main/binary-armhf/Packages
+ 3e0dd1666f93c691d72231111f1bb4924bbeca1d196b32c6790770d6e950b297 59911 main/binary-armhf/Packages.gz
  adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
  be1252568ce140e725b1eafd775a94628d29a65a806edf79b4b4cb1f328b3d46 1552 main/debian-installer/binary-armhf/Packages
  2eef338fd6517370c436ecb2412ad0222cf473203c83037515914cb39441164e 814 main/debian-installer/binary-armhf/Packages.gz
- 5d489cad1c8b2ccfb32b26766ac01731f1c437866ccb15678ec1e29db515546b 34420 main/source/Sources
- 87d164ed927d529d06d9702c1653057f56ca35ad3d2792f2a237060c6d0e6d7a 10093 main/source/Sources.gz
+ 3bb31971709663bb76a6cbeaa5a3c2b3d7c0fc75b1e04116399489a338b51924 34420 main/source/Sources
+ c0226b303ff622793fe384fe435aaf526c60566d41e430c47afc45f3348f7c01 10098 main/source/Sources.gz
  908a5b420958dbb3103f2f050c1597855da92997ca5b570ac70e9eb620d2620d 139 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAltahkkACgkQ3GEhV0o7
-+KzzqhAAp/Xl8tL+ZTfQgjaKhMMtGyR7Ld9reS2LLm82TlOom9AFRzhMHQj/VO+3
-k0vjl9mCz+A3RPpLFgcXvATYEMp3rFZwJAkqBQ37K1z4kglHby9ahpNVHTRfR3kz
-FJtCPSmTa6XA0Ol2q32gnLBDiRwRil8W08WosrycN3PvcANMpNt58wmItErY+Oo5
-nRWN/AVgWqmK36TAuNM65Pv8bhYquBMsIeYn0IbSyTuDZdcjOUo5MSmX7F7MuMme
-NMNfXnVkYtwVePgo5bJ3mtCvl4GVLYzZV9PkJQIdEMoaCVpQ8JkEYV+SNqZprpR/
-K/zkYQqvlHaCtv9uWwlzIaGZ3vlqRq4hrJRpBAX6Je/pLk8LlfKe6MKMFDvCD/Xh
-ShT56Bx3Rnhc7KOKhH7hLFV8RURZFKpud3H4Oopodh9qx3cIWGD6/yep+2CC3rvA
-tYHhGT7SPcFZ4M2OMHjcJG+pfVyvD6c793T8dvn3ZkKRxsxryqLGawJ0utMrfoLu
-cIgmr87/0pxmApN5VvUbhrIwxbmDEkTbqo0p/16bMuROBC8JGM0JCzUMB07dleC0
-87SviMJKEgLkoWGPD+b+tsiPf2sLmpk54EKCMK9ZoTMIFQmYXfzAFQkrPZne+YWS
-h7eWHhY1jwA+kB3f0iRKt2jbbhudhthiPTdRPMiT2zzgxSyd43o=
-=rNTe
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAltavx8ACgkQ3GEhV0o7
++KwijA//aBl5XTJaPF+1e7JXjIBHfePFBc3sDfXASkW4CTM5iGGg85y52KaDg88R
+Ef9eJuK/zojLv/XRSRE+24NVLcDDBqw2Pc19a+OKc1jbk9Nw6aoxrcyeHu/MZ6YP
+kkIkpnVHOTCpRxhzEO0I1M84AaHLZkyu2DMpeyumWVAgitJ/thMqMI/3JY4y2w+G
+T7VY7vUpnw2n6NUZJneN0uKiBfzhkZoUsY0mwCwqzkRGNqBwCJ47RXNNOw8yp2H5
+lgdXx6TXi912K11oBUffhWOVntlu2f1IrMPbDp/iHzbucga8/Rd72DANRU5ea0I+
+ZYHUSeowz0cpB5hNmCAC3XpXmc6pkwDhK4jcOB5af1Atxqvk+LY1yvw0i+Qyg0TJ
+eS9df/2xO9LAcOkGMsVKdUgGgPRKWxSiHyq8eBJLF9v1XH97Bc9F1otknPyegbYg
+1U6F5V+qYEGHhxZHl5quN4teLOTSodu/EeAK1geeiGCrQmCqGnSj3DupJjhME7OE
+DsVV6a5bbwzCYzmheiHwywXFT1HOUycC8A8LcyLbKryMoX1EwGO+m88nxq4VNffl
+VaKWY1hgqVCirCz5LPDym2riMI2dVcU1Z+7Q2NGXXDzAmNGaO5gWOeHiMAWIB6XC
+Pu+e7e5oq5S27d4ZmgLE34DGjH6QadCKF31PlSfe9VGcfT6Ywco=
+=j2qD
 -----END PGP SIGNATURE-----

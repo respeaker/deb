@@ -3186,17 +3186,17 @@ Build-Ids: d1c57604f3c0b09bc4c0bf1c60e41167b4387f48
 
 Package: xserver-xorg-video-armsoc
 Source: xf86-video-armsoc
-Version: 1.9.3-3
+Version: 1.9.3-4
 Architecture: armhf
 Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
-Installed-Size: 9
+Installed-Size: 73
 Priority: optional
 Section: x11
-Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-3_armhf.deb
-Size: 2264
-SHA256: 3b96d12c634913eef25356bfa5ce2a506eb98894579d4f35d255050d32ea9a5c
-SHA1: 67ce9e281323b479cc20e83b808a5b31d963c0fc
-MD5sum: 364562eb717c22b56b431403ef838cef
+Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc_1.9.3-4_armhf.deb
+Size: 30810
+SHA256: 4f7c956ae1a2e37784cfc27cc20f99445d8e0ea9b046923fc677a918c74d5626
+SHA1: 8637ecf6a0125b63d9840286694c388f57241d53
+MD5sum: d2b2dc83cdb48bcd5e6fd0b2c98c6e48
 Description: X.Org X server -- ARM SoC display driver (transitional package)
  This driver for the X.Org X server (see xserver-xorg for a further
  description) provides support for OMAP2 and newer devices including
@@ -3209,6 +3209,25 @@ Description: X.Org X server -- ARM SoC display driver (transitional package)
   * <URL:http://www.X.org>
   * <URL:http://xorg.freedesktop.org>
   * <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
+
+Package: xserver-xorg-video-armsoc-dbgsym
+Source: xf86-video-armsoc
+Version: 1.9.3-4
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel@lists.ubuntu.com>
+Installed-Size: 216
+Depends: xserver-xorg-video-armsoc (= 1.9.3-4)
+Priority: extra
+Section: debug
+Filename: pool/main/x/xf86-video-armsoc/xserver-xorg-video-armsoc-dbgsym_1.9.3-4_armhf.deb
+Size: 193642
+SHA256: 6f2d745c07dc67caf3a6777982d62cfcf95d8ab9c4f14c67477f84c1028200a5
+SHA1: 5e244df687d94a7576209b4035f6c49ad36b58cf
+MD5sum: 663399e954aebcdad616bc6425c512ca
+Description: Debug symbols for xserver-xorg-video-armsoc
+Build-Ids: 097d14ed10e4d0d35d785aa94a33222c561222ac
 Original-Maintainer: Marcin Juszkiewicz <marcin@juszkiewicz.com.pl>
 
 Package: xtightvncviewer
