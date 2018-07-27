@@ -1354,6 +1354,23 @@ MD5sum: dd6ec5267553098f508a8391651e520f
 Description: Linux kernel firmware, version 4.4.132-respeaker-r5
  This package contains firmware from the Linux kernel, version 4.4.132-respeaker-r5.
 
+Package: linux-firmware-image-4.4.138-respeaker-r0
+Source: linux-4.4.138-respeaker-r0
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@bz>
+Installed-Size: 350
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.138-respeaker-r0/linux-firmware-image-4.4.138-respeaker-r0_1stable_armhf.deb
+Size: 125364
+SHA256: e0f163546c05b8dc64827f8c60ecfc64598094ae61d675a8356e7a877a50472f
+SHA1: 2835bf85c12033d5ebef30f68647bf2a86118aa9
+MD5sum: 3cff89b7af484f173df216f777463c98
+Description: Linux kernel firmware, version 4.4.138-respeaker-r0
+ This package contains firmware from the Linux kernel, version 4.4.138-respeaker-r0.
+
 Package: linux-firmware-image-4.4.95-respeaker-r8
 Source: linux-4.4.95-respeaker-r8
 Version: 1stable
@@ -1388,6 +1405,26 @@ SHA1: 7b8585929a68c726011ee2663eea2ccfc36d980f
 MD5sum: abaf0c9efacef8a12895a0879e0c57e9
 Description: Linux kernel headers for 4.4.132-respeaker-r5 on armhf
  This package provides kernel header files for 4.4.132-respeaker-r5 on armhf
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-4.4.138-respeaker-r0
+Source: linux-4.4.138-respeaker-r0
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@bz>
+Installed-Size: 49990
+Provides: linux-headers, linux-headers-2.6
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.138-respeaker-r0/linux-headers-4.4.138-respeaker-r0_1stable_armhf.deb
+Size: 7708878
+SHA256: f7c6be8b09d8c990f5421b4316570b931608a3c2705d082943230db9a5829592
+SHA1: da16573744889b79d5e643879e0854e36687ae04
+MD5sum: 9fec44c584e1db892be30709d1068961
+Description: Linux kernel headers for 4.4.138-respeaker-r0 on armhf
+ This package provides kernel header files for 4.4.138-respeaker-r0 on armhf
  .
  This is useful for people who need to build external modules
 
@@ -1430,6 +1467,26 @@ MD5sum: 28aa1b6be1c2495077c6b178b4c88330
 Description: Linux kernel, version 4.4.132-respeaker-r5
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.4.132-respeaker-r5.
+
+Package: linux-image-4.4.138-respeaker-r0
+Source: linux-4.4.138-respeaker-r0
+Version: 1stable
+Architecture: armhf
+Maintainer: Anonymous <root@bz>
+Installed-Size: 37711
+Suggests: linux-firmware-image-4.4.138-respeaker-r0
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.138-respeaker-r0
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.4.138-respeaker-r0/linux-image-4.4.138-respeaker-r0_1stable_armhf.deb
+Size: 12664952
+SHA256: a9c98375bee5ad10f0977dde1398c7b42999adfac6b4891914a23b785942e44a
+SHA1: 797070d435916cc0955bd5f9d7809feb82b8bfeb
+MD5sum: f521c84e2f5260b7954376baf2fe0838
+Description: Linux kernel, version 4.4.138-respeaker-r0
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.138-respeaker-r0.
 
 Package: linux-image-4.4.95-respeaker-r8
 Source: linux-4.4.95-respeaker-r8
