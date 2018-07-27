@@ -896,6 +896,28 @@ Description: debugging symbols for littleb
  This package contains littleb debugging symbols.
 Build-Ids: 1162d2cb78ab36d0d3d74bb171b033bc485fb213
 
+Package: libmali-rk-dev
+Source: libmali-rk
+Version: 1.6.1
+Architecture: armhf
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 978
+Replaces: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Provides: libegl1-mesa-dev, libgbm-dev, libgles2-mesa-dev, opencl-c-headers
+Multi-Arch: same
+Homepage: http://www.rock-chips.com/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libm/libmali-rk/libmali-rk-dev_1.6.1_armhf.deb
+Size: 80764
+SHA256: 3d3c8fc66c00286d86ece8f9ff98cab45be4158add1c1eb3690bec0157c95a1d
+SHA1: 0c9e88a96309eaaefd3ed5131b3bf4f7abd8ad0c
+MD5sum: ecf8d9374a413a4cc939f08544ce9bf7
+Description: The mali library for Rockchip RK3288.
+ .
+ This package provides the development environment for compiling programs
+ against the GBM library.
+
 Package: libmraa-dev
 Source: mraa
 Version: 1.9.0-git20180602-0re2~re2+20180602+1
