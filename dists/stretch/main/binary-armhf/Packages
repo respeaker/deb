@@ -898,7 +898,7 @@ Build-Ids: 1162d2cb78ab36d0d3d74bb171b033bc485fb213
 
 Package: libmali-rk-dev
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 979
@@ -908,11 +908,11 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libdevel
-Filename: pool/main/libm/libmali-rk/libmali-rk-dev_1.6-1ayufan10_armhf.deb
-Size: 82362
-SHA256: 6cee6bf8c654aaf519bc72bf3337ac96bb796ec9d1a9d58dbc155fee53d6af90
-SHA1: 97ce1713f986b9a265d16ff574c441bd1577d20c
-MD5sum: 6c4e408bbb779dfd152933e0fef84b4d
+Filename: pool/main/libm/libmali-rk/libmali-rk-dev_1.6-1ayufan11_armhf.deb
+Size: 82400
+SHA256: 98dbc0e3f60ad7011b95c588f82025110e1170dece624baea0c3fa4e7aa94aa4
+SHA1: 7c57a80fe654844d25041ac40ba7e35ecc8b5a3e
+MD5sum: 680af89647cb430b594df5282006d393
 Description: The mali library for Rockchip RK3288.
  .
  This package provides the development environment for compiling programs
@@ -920,7 +920,7 @@ Description: The mali library for Rockchip RK3288.
 
 Package: libmali-rk-midgard-t76x-r14p0-r0p0
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 17209
@@ -931,16 +931,16 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r0p0_1.6-1ayufan10_armhf.deb
-Size: 7283422
-SHA256: 857b06ab2b206b58d35bcc2a59152e95347e83d62cf10f3fa6978b133304de55
-SHA1: 5fe506bca976f14865e2d2609addef7f253732b3
-MD5sum: 04b2e6c693df4b37dd8aa066240a92a3
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r0p0_1.6-1ayufan11_armhf.deb
+Size: 7283722
+SHA256: 2b9afe6ef6785d3d417598a519dadc95dc1d08bff470636b26322f2dda47ec3d
+SHA1: fe6fb8a94501388e3497b9a985028d63cdf1a4ac
+MD5sum: 283575ad86a4d0f8459820b4d012ab3c
 Description: The mali library for Rockchip RK3288(not included RK3288W).
 
 Package: libmali-rk-midgard-t76x-r14p0-r0p0-wayland
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 17208
@@ -951,16 +951,16 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r0p0-wayland_1.6-1ayufan10_armhf.deb
-Size: 7282498
-SHA256: cafd1e53dde2dad26c967a1faaad32e42ed5cda8496ad713fa50f0b4955d20e5
-SHA1: 8a59617b48efb6f7ceca8f6a293ff9bc1fe30791
-MD5sum: c58a1b3e43343feb5895a43462ca499e
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r0p0-wayland_1.6-1ayufan11_armhf.deb
+Size: 7282114
+SHA256: c59e0097b35f7a3d411ba99f35c8b81e3b9dea3fd1f40207ce8d89df4b46986b
+SHA1: 6c38ab1f04a54ccf9d195c6e1181d221dce96336
+MD5sum: 130bed6223a61928a03d4c8f2595d865
 Description: The mali library for Rockchip RK3288(not included RK3288W).
 
 Package: libmali-rk-midgard-t76x-r14p0-r1p0
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 17209
@@ -971,16 +971,16 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r1p0_1.6-1ayufan10_armhf.deb
-Size: 7282334
-SHA256: ede7fd723f48fa92575352cf359a5bc8c0e0233c049c58ca5a757bf8b8194011
-SHA1: f2725c306670b6ec7527bd038a8f0ad50a728d65
-MD5sum: c69d549cedd44741faec5c9a07cb30b7
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t76x-r14p0-r1p0_1.6-1ayufan11_armhf.deb
+Size: 7282834
+SHA256: cbdae1d71568f5bf6761004e35dfb2a7c334ad9ee5cc51fda5831d41c8ef8cb4
+SHA1: c83432da04603e5a7c29cde0f70f6151f8e6dfca
+MD5sum: 902835310008de44f536c5dbe9e8fad8
 Description: The mali library for Rockchip RK3288W.
 
 Package: libmali-rk-midgard-t86x-r14p0
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 17209
@@ -991,16 +991,16 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0_1.6-1ayufan10_armhf.deb
-Size: 7281166
-SHA256: 7afa5c9707ee65f25e4527c2628354ec7b402a51661a05779566385292a465c2
-SHA1: df4579df3d2e6f65497b2fd6a223439871a9a354
-MD5sum: 8274326336503328fc029a882ecbbb0c
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0_1.6-1ayufan11_armhf.deb
+Size: 7275006
+SHA256: 0effc37b75fb42aa6139cbd461e1a44c488dcf83652371dc3a647864657b33c9
+SHA1: 076e7650c00a4c89d5f9b111e76bac8faf24068a
+MD5sum: bc0fc90b313532bb36605d78cfa0b131
 Description: The mali library for Rockchip RK3399 (32bit).
 
 Package: libmali-rk-midgard-t86x-r14p0-gbm
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 17201
@@ -1011,16 +1011,16 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0-gbm_1.6-1ayufan10_armhf.deb
-Size: 7273736
-SHA256: b380458fa4d877eb3460f34d6e96892d85a6c792fbd0b4808ed78d875950f673
-SHA1: 77ea29dd7b7fa98c3c6ed006eee8b1dbcb220b5b
-MD5sum: c42e6aa0f562ba3d8979dab58510e693
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0-gbm_1.6-1ayufan11_armhf.deb
+Size: 7269650
+SHA256: 76728f7816ef0c0ca868af755e842903a66331c103b53a7deb12a363904bed92
+SHA1: 09f09a314137ca06c8b216f503b12d79a107a4b5
+MD5sum: dacaa0b73a373981902a84826061e091
 Description: The mali library for Rockchip RK3399 GBM.
 
 Package: libmali-rk-midgard-t86x-r14p0-wayland
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 17212
@@ -1031,91 +1031,91 @@ Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0-wayland_1.6-1ayufan10_armhf.deb
-Size: 7279568
-SHA256: 4afdd8ae0e431b93f7abe2e904a3a6ac15d85f01b1b8687615426cee3f176bec
-SHA1: c8543817d4373f0ca6322afbbb4898061ea04254
-MD5sum: 1f6b5840e5aa55de47eb114c8cde2c98
+Filename: pool/main/libm/libmali-rk/libmali-rk-midgard-t86x-r14p0-wayland_1.6-1ayufan11_armhf.deb
+Size: 7279886
+SHA256: 417a2b72ad0dd28b55ec72b86b8a6527e4e49c6ef34b1a09e9630a8d371a4f0d
+SHA1: 13bd901f613ea7d7c43b174c88ffdd7c5e33cf64
+MD5sum: 76582e5cc1e359baf8a61285c23853c2
 Description: The mali library for Rockchip RK3399 Wayland.
 
 Package: libmali-rk-utgard-400-r7p0
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 883
 Depends: libc6 (>= 2.4), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
-Replaces: libegl1, libgbm1, libgles1, libgles2, libopencl1
-Provides: libegl1, libgbm1, libgles1, libgles2, libopencl1
+Replaces: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libopencl1, libwayland-egl1-mesa
+Provides: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libopencl1, libwayland-egl1-mesa
 Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-400-r7p0_1.6-1ayufan10_armhf.deb
-Size: 414906
-SHA256: 1291b03fccc89e540ab50cad2ea354d482cf0ad0a1c89cdb7e58575d64733560
-SHA1: a50910fad20e8dce8a87d90d48949740c3c06b3f
-MD5sum: ebdf3a97c6cd0a724593456364580bd9
+Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-400-r7p0_1.6-1ayufan11_armhf.deb
+Size: 415022
+SHA256: cfff62668efa3fb48c0c1bd3383b0560c05eb86645817f2c9b56b7396f1b7ddd
+SHA1: 019c05407a7a8985c0b42bb92941cfb6cc9a12c5
+MD5sum: f73c5bb3bc6bd2df563256825626aadb
 Description: The mali library for Rockchip RK30 serial.
 
 Package: libmali-rk-utgard-450-r7p0
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 1720
 Depends: libc6 (>= 2.4), libdrm2 (>= 2.3.1), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
-Replaces: libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0-gbm, libmali-rk-utgard-450-r7p0-wayland, libopencl1
-Provides: libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libopencl1
+Replaces: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0-gbm, libmali-rk-utgard-450-r7p0-wayland, libopencl1, libwayland-egl1-mesa
+Provides: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libopencl1, libwayland-egl1-mesa
 Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0_1.6-1ayufan10_armhf.deb
-Size: 478318
-SHA256: 90362686e4406fedc9ad28db89904838da3e961d468d022c4648e81bbc46bac7
-SHA1: 12d0fdf2c1a46506eccab50bcf602b9b34264adc
-MD5sum: b138b4098a2bc78378383eeeea9179c5
+Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0_1.6-1ayufan11_armhf.deb
+Size: 478298
+SHA256: 7a6db9b8cba56e8d21282cd16cb879922b630dc14cdabbcf352eeed81cfc421d
+SHA1: 789dfd4b66503ad036a826c26caa36521265214c
+MD5sum: 843c47b69f46def60c3ec400cb88cf88
 Description: The mali library for Rockchip RK3328.
 
 Package: libmali-rk-utgard-450-r7p0-gbm
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 867
 Depends: libc6 (>= 2.4)
-Replaces: libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0, libmali-rk-utgard-450-r7p0-wayland, libopencl1
-Provides: libegl1, libgbm1, libgles1, libgles2, libopencl1
+Replaces: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0, libmali-rk-utgard-450-r7p0-wayland, libopencl1, libwayland-egl1-mesa
+Provides: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libopencl1, libwayland-egl1-mesa
 Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0-gbm_1.6-1ayufan10_armhf.deb
-Size: 406766
-SHA256: 88321fee1f198b10d5fdd0b6a0461aa11583f42a186f39acea00d6672ae7159d
-SHA1: 7dcb70103e591bca81ad7dfa50488a8679a6670c
-MD5sum: c15085683b58bd80bef919e6aa74810e
+Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0-gbm_1.6-1ayufan11_armhf.deb
+Size: 406780
+SHA256: a3178e4869c456490d144e9f2b751bbbd6e54eb23a80c4b948d7c0454986ba58
+SHA1: 5ad06ffc604bf77e97de0440c8bc5d712af54af0
+MD5sum: 796a60833654e488724b4e1b60e08aee
 Description: The mali library for Rockchip RK3328 GBM.
 
 Package: libmali-rk-utgard-450-r7p0-wayland
 Source: libmali-rk
-Version: 1.6-1ayufan10
+Version: 1.6-1ayufan11
 Architecture: armhf
 Maintainer: Kamil Trzcinski <ayufan@ayufan.eu>
 Installed-Size: 882
 Depends: libc6 (>= 2.4), libwayland-client0 (>= 1.3.92), libwayland-server0 (>= 1.2.0)
-Replaces: libegl1, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0, libmali-rk-utgard-450-r7p0-gbm, libopencl1, libwayland-egl1
-Provides: libegl1, libgbm1, libgles1, libgles2, libopencl1, libwayland-egl1
+Replaces: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libmali-rk-utgard-2th-r7p0, libmali-rk-utgard-450-r7p0, libmali-rk-utgard-450-r7p0-gbm, libopencl1, libwayland-egl1, libwayland-egl1-mesa
+Provides: libegl1, libegl1-mesa, libegl2-mesa, libgbm1, libgles1, libgles2, libopencl1, libwayland-egl1, libwayland-egl1-mesa
 Multi-Arch: same
 Homepage: http://www.rock-chips.com/
 Priority: optional
 Section: libs
-Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0-wayland_1.6-1ayufan10_armhf.deb
-Size: 412186
-SHA256: 105aa35ba9529c0312f0abb72dbbe799b09d884ff2b457b84098d69bcd05cddd
-SHA1: 30c4a7341ae98fe557ce4ac0c773b335a3135797
-MD5sum: 005f443e0b6bbf617015e48efd46f7cd
+Filename: pool/main/libm/libmali-rk/libmali-rk-utgard-450-r7p0-wayland_1.6-1ayufan11_armhf.deb
+Size: 412152
+SHA256: d048526234665ebe406bb9d7d53683fa008aa2a34422f3a49b629bcd56dba201
+SHA1: a0cdf4f114ca7dd87cb43fe9de868357c8b3969c
+MD5sum: e001b8e3504bf12e293598017551d385
 Description: The mali library for Rockchip RK3328 Wayland.
 
 Package: libmraa-dev
